@@ -1,0 +1,6 @@
+{
+    "markdownlint.config": {
+        "MD034": false, // allow bare URLs
+        "MD047": false, // allow no trailing newline
+    }
+}

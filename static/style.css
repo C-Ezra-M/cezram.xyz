@@ -1,0 +1,79 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #FFBB22;
+    --secondary: #000088;
+}
+
+html {
+    color-scheme: dark;
+    padding: 0.5rem;
+    font-family: Iosevka;
+    background-image:
+        linear-gradient(to bottom, transparent 50%, var(--secondary) 95%),
+        url(/tiling-dark.png);
+    min-height: 100%;
+    &:has(#mode-switcher:checked) {
+        color-scheme: light;
+        background-image:
+            linear-gradient(to bottom, transparent 50%, var(--primary) 95%),
+            url(/tiling-light.png);
+    }
+}
+
+body {
+    margin: 0 auto;
+    max-width: min(900px, 100%);
+}
+
+#mode-switcher {
+    display: none;
+}
+
+.mode-switcher-btn {
+    background-color: light-dark(yellow, white);
+    height: 80px;
+    width: 50px;
+    display: inline-block;
+    right: 0;
+    position: absolute;
+}
+
+header {
+    height: 84px;
+    position: relative;
+    background-image: 
+        url(/header-icon-dark.png),
+        url(/header-bg-dark.png)
+    ;
+    background-repeat: 
+        no-repeat, repeat-x
+    ;
+    border: 2px solid var(--primary);
+    margin-bottom: 0.5rem;
+    &:has(#mode-switcher:checked) {
+        background-image: 
+            url(/header-icon-light.png),
+            url(/header-bg-light.png)
+        ;
+        border-color: var(--secondary);
+    }
+}
+
+main {
+    border: 2px solid light-dark(var(--secondary), var(--primary));
+    background-color: light-dark(var(--primary), var(--secondary));
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+}
+
+footer {
+    margin: auto;
+    width: fit-content;
+}
