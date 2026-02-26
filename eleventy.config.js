@@ -1,4 +1,4 @@
-import pluginRss from "@11ty/eleventy-plugin-rss"
+import { feedPlugin } from "@11ty/eleventy-plugin-rss"
 import { IdAttributePlugin } from "@11ty/eleventy";
 import markdownIt from "markdown-it";
 
@@ -6,11 +6,11 @@ export default function (eleventyConfig) {
 	const mdOptions = {
 		linkify: true,
 	}
-	eleventyConfig.setTemplateFormats("html,liquid,njk");
+	//eleventyConfig.setTemplateFormats("html,liquid,njk,md");
 	eleventyConfig.addPlugin(IdAttributePlugin);
 	eleventyConfig.addPassthroughCopy({ static: "/" });
 	//eleventyConfig.addPassthroughCopy("not_found.md", "not_found.html");
-    eleventyConfig.addPlugin(pluginRss, {
+    eleventyConfig.addPlugin(feedPlugin, {
 		type: "rss",
 		outputPath: "/feed.xml",
 		collection: {

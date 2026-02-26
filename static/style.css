@@ -28,6 +28,15 @@ body {
     max-width: min(900px, 100%);
 }
 
+.construction {
+    background-image: repeating-linear-gradient(135deg, #666 0, #666 20px, #660 20px, #660 40px, #666 40px);
+    text-align: center;
+    padding: 2px;
+    html:has(#mode-switcher:checked) & {
+        background-image: repeating-linear-gradient(135deg, #bbb 0, #bbb 20px, #ee0 20px, #ee0 40px, #bbb 40px);
+    }
+}
+
 #mode-switcher {
     display: none;
 }
