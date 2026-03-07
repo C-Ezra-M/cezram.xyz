@@ -6,13 +6,18 @@
     <link rel="icon" href="/favicon.png"/>
     <link rel="stylesheet" href="/style.css" media="screen">
     <title>{{ title }} | The Ezranians</title>
+    <script src="/script.js" type="module"></script>
 </head>
 <body>
     <header>
+        <a id="header-link" href="/"></a>
         <label for="mode-switcher" class="mode-switcher-btn"></label>
         <input id="mode-switcher" type="checkbox">
     </header>
-    <div class="construction">Under Construction</div>
+    <noscript>
+        <div class="no-js notice">JavaScript support is disabled - <a href="/no-js">Learn what it means</a></div>
+    </noscript>
+    <div class="construction notice">Under Construction</div>
     <main>
         <h1>{{ title }}</h1>
         {{ content }}
