@@ -8,7 +8,10 @@ export default function (eleventyConfig) {
 	}
 	//eleventyConfig.setTemplateFormats("html,liquid,njk,md");
 	eleventyConfig.addPlugin(IdAttributePlugin);
-	eleventyConfig.addPassthroughCopy({ static: "/" });
+	eleventyConfig.addPassthroughCopy({
+		"static/pkgs": "/",
+		static: "/",
+	});
 	//eleventyConfig.addPassthroughCopy("not_found.md", "not_found.html");
     eleventyConfig.addPlugin(feedPlugin, {
 		type: "rss",

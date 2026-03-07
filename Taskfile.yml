@@ -1,0 +1,43 @@
+version: 3
+
+tasks:
+  copy-pkgs:
+    desc: Copies packages from node_modules to the static folder
+    cmds:
+      - mkdir -p static/pkgs
+      - cp node_modules/localforage/dist/localforage.min.js static/pkgs/localforage.js
+      - cp node_modules/blissfuljs/bliss.min.js static/pkgs/bliss.js
+  serve:
+    desc: Serves the site on localhost
+    cmds:
+      - npx eleventy --serve --quiet
+  build-noclean:
+    desc: Builds the site without removing the contents of the `_site` directory
+    cmds:
+      - npx eleventy --quiet
+  clean:
+    desc: Deletes the `_site` directory to ensure a clean build
+    cmds:
+      - rm -r _site
+  post-build:
+    desc: Operations after building
+    dir: _site
+    cmds:
+      - mv not_found/index.html not_found.html
+      - rm -r pkgs
+      - rm not_found
+  build:
+    desc: Builds the site clean
+    cmds:
+      - task: clean
+      - task: build-noclean
+      - task: post-build
+  publish:
+    desc: Publishes the site on Neocities
+    cmds:
+      - neocities push
+  build-publish:
+    desc: Builds and publishes the site
+    cmds:
+      - task: build
+      - task: publish
