@@ -3,8 +3,10 @@ import { IdAttributePlugin } from "@11ty/eleventy";
 import markdownIt from "markdown-it";
 
 export default function (eleventyConfig) {
+	/** @type markdownIt.Options */
 	const mdOptions = {
 		linkify: true,
+		html: true,
 	}
 	//eleventyConfig.setTemplateFormats("html,liquid,njk,md");
 	eleventyConfig.addPlugin(IdAttributePlugin);
