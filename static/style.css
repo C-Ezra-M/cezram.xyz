@@ -84,14 +84,13 @@ header {
     background-repeat: 
         no-repeat, repeat-x
     ;
-    border: 2px solid var(--primary);
+    border: 2px solid light-dark(var(--secondary), var(--primary));
     margin-bottom: 0.5rem;
     &:has(#mode-switcher:checked) {
         background-image: 
             url(/header-icon-light.png),
             url(/header-bg-light.png)
         ;
-        border-color: var(--secondary);
     }
 }
 
@@ -103,6 +102,12 @@ main {
     > :last-child {
         margin-bottom: 0;
     }
+}
+
+blockquote {
+    border-left: 2px solid currentColor;
+    padding-left: 10px;
+    margin-left: 28px;
 }
 
 h1, h2, h3, h4, h5, h6, p {
