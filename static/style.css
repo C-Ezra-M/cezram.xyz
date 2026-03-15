@@ -5,7 +5,7 @@
 :root {
     --primary: #FFBB22;
     --secondary: #000088;
-    --tertiary: #009900;
+    --tertiary: #990066;
 }
 
 html {
@@ -114,7 +114,8 @@ footer {
     width: fit-content;
 }
 
-code, pre, kbd, samp {
+code, kbd, samp, var {
     font-family: inherit;
+    font-style: italic;
     color: light-dark(var(--tertiary), var(--primary));
 }
