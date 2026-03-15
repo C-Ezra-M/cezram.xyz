@@ -1,6 +1,7 @@
 import { feedPlugin } from "@11ty/eleventy-plugin-rss"
 import { IdAttributePlugin } from "@11ty/eleventy";
 import markdownIt from "markdown-it";
+import { outdent } from "outdent";
 
 export default function (eleventyConfig) {
 	/** @type markdownIt.Options */
@@ -14,6 +15,11 @@ export default function (eleventyConfig) {
 		"static/pkgs": "/",
 		static: "/",
 	});
+	eleventyConfig.addPairedShortcode("float", content => {
+		return outdent`<div class="float">
+			${content}
+			</div>`
+	})
 	//eleventyConfig.addPassthroughCopy("not_found.md", "not_found.html");
     eleventyConfig.addPlugin(feedPlugin, {
 		type: "rss",
