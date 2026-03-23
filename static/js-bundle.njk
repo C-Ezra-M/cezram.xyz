@@ -1,0 +1,9 @@
+---
+permalink: '/bundle.js'
+---
+{% set js %}
+{% include "./pkgs/localforage.js" %}
+{% include "./pkgs/bliss.js" %}
+{% include "./script.js" %}
+{% endset %}
+{{ js | jsmin | safe }}

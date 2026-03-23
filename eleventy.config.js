@@ -12,7 +12,6 @@ export default function (eleventyConfig) {
 	//eleventyConfig.setTemplateFormats("html,liquid,njk,md");
 	eleventyConfig.addPlugin(IdAttributePlugin);
 	eleventyConfig.addPassthroughCopy({
-		"static/pkgs": "/",
 		static: "/",
 	});
 	eleventyConfig.addPairedShortcode("float", content => {
