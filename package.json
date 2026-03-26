@@ -17,6 +17,7 @@
     "@11ty/eleventy-plugin-rss": "^2.0.4",
     "blissfuljs": "^1.0.6",
     "localforage": "^1.10.0",
-    "outdent": "^0.8.0"
+    "outdent": "^0.8.0",
+    "terser": "^5.46.1"
   }
 }
