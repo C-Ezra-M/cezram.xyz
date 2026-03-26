@@ -11,6 +11,10 @@ tasks:
     desc: Serves the site on localhost
     cmds:
       - npx eleventy --serve --quiet
+  serve-python:
+    desc: Serves the site on localhost with Python. Useful after building with a post-build cleanup.
+    cmds:
+      - python -m http.server 8080 -d _site
   build-noclean:
     desc: Builds the site without removing the contents of the `_site` directory
     cmds:
@@ -23,14 +27,18 @@ tasks:
     desc: Operations after building
     dir: _site
     cmds:
-      - mv not_found/index.html not_found.html
       - rm -r pkgs
-      - rm not_found
-  build:
-    desc: Builds the site clean
+      - rm script.js
+      - rm *.njk
+  build-no-post:
+    desc: Builds the site clean, with no post-build cleanup
     cmds:
       - task: clean
       - task: build-noclean
+  build:
+    desc: Builds the site clean
+    cmds:
+      - task: build-no-post
       - task: post-build
   publish:
     desc: Publishes the site on Neocities
