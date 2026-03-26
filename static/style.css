@@ -1,5 +1,6 @@
 *, ::before, ::after {
     box-sizing: border-box;
+    margin-top: 0;
 }
 
 :root {
@@ -94,7 +95,7 @@ header {
     }
 }
 
-main {
+nav, main {
     border: 2px solid light-dark(var(--secondary), var(--primary));
     background-color: light-dark(var(--primary), var(--secondary));
     padding: 0.5rem;
@@ -104,14 +105,29 @@ main {
     }
 }
 
+nav > ul {
+    padding-left: 0;
+}
+nav > ul > li {
+    display: inline;
+    &:not(:first-of-type)::before {
+        content: "| "
+    }
+}
+nav > ul > ul {
+    display: none;
+}
+
+main::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
 blockquote {
     border-left: 2px solid currentColor;
     padding-left: 10px;
     margin-left: 28px;
-}
-
-h1, h2, h3, h4, h5, h6, p {
-    margin-top: 0;
 }
 
 footer {
@@ -123,4 +139,9 @@ code, kbd, samp, var {
     font-family: inherit;
     font-style: italic;
     color: light-dark(var(--tertiary), var(--primary));
+}
+
+.float {
+    float: right;
+    padding: 0.5em 0 0.5em 0.5em;
 }
