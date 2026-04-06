@@ -16,12 +16,13 @@ Submit in this form a display name, a number from 1 to 16, and at least one mean
 
 - Fluxer (cezram#9650)
 - Matrix (@c.ezra.m:matrix.org)
-- Stoat (C.Ezra.M#9544)
 - Discord (c.ezra.m)
+
+Once the signups close ,
 
 ### What is the gameplay loop like?
 
-At the end of every challenge, at least two contestants with the lowest scores will attend a deathmatch. The loser of the deathmatch is eliminated. This continues until the final 5. Then, there are automatic eliminations until the final 2.
+At the end of every challenge, at least four contestants with the lowest scores will attend a deathmatch. The loser of the deathmatch is eliminated. This continues until the final 7. Then, there are automatic eliminations until the final 2.
 
 This is very similar to Advanced495's camp, Brawl to Win it All.
 
