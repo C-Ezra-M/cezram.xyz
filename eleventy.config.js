@@ -3,6 +3,7 @@ import { IdAttributePlugin } from "@11ty/eleventy";
 import markdownIt from "markdown-it";
 import { outdent } from "outdent";
 import { minify } from "terser";
+import { pokemonIcon } from "./shortcodes.js";
 
 export default function (eleventyConfig) {
 	/** @type markdownIt.Options */
@@ -15,6 +16,7 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({
 		static: "/",
 	});
+	eleventyConfig.addShortcode("pkmnIcon", pokemonIcon)
 	eleventyConfig.addPairedShortcode("float", content => {
 		return outdent`<div class="float">
 			${content}
