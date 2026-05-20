@@ -7,6 +7,9 @@
     --primary: #FFBB22;
     --secondary: #000088;
     --tertiary: #990066;
+    --primary-muted: #FFDD99;
+    --secondary-muted: #555599;
+    --tertiary-muted: #995577;
 }
 
 html {
@@ -55,14 +58,9 @@ body {
     width: 100%;
     height: 100%;
     image-rendering: pixelated;
-    background-image: url(/ezranians-wordmark-dark.png);
+    background-image: url(/logo.png);
     background-repeat: no-repeat;
-    background-position: center 18px;
-    background-size: auto 48px;
-
-    html:has(#mode-switcher:checked) & {
-        background-image: url(/ezranians-wordmark-light.png);
-    }
+    background-position: center center;
 }
 
 .mode-switcher-btn {
@@ -144,4 +142,20 @@ code, kbd, samp, var {
 .float {
     float: right;
     padding: 0.5em 0 0.5em 0.5em;
+}
+
+table {
+    border-collapse: collapse;
+    > tr, > * > tr {
+        > td, > th {
+            border: 1px solid currentColor;
+            padding: 2px;
+        }
+        > th {
+            border-bottom: 3px solid light-dark(var(--secondary), var(--primary));
+        }
+        &:hover {
+            background-color: light-dark(var(--primary-muted), var(--secondary-muted));
+        }
+    }
 }
