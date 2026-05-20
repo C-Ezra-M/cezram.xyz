@@ -7,3 +7,6 @@ static/pkgs/
 
 # macOS-specific
 .DS_Store
+
+# Drafts
+_drafts
