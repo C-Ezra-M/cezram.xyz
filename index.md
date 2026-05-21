@@ -1,5 +1,5 @@
 ---
-title: Welcome to The Ezranians
+title: Welcome to C.Ezra.M's website
 layout: layout.html
 ---
 
