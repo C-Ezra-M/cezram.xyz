@@ -3,5 +3,6 @@
         "MD007": false, // indent size for lists relaxed
         "MD034": false, // allow bare URLs
         "MD047": false, // allow no trailing newline
+        "MD060": false, // ignore table style
     }
 }
