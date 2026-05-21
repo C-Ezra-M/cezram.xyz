@@ -2,6 +2,8 @@
 title: Polish Pokémon Names - An Ever-Growing List
 ---
 
+Currently, this list has 91 entries.
+
 Some of those names were not fully my ideas. For example, some come from [Dark Archon's Polish Pokémon Crystal patch](https://ar.hn/2023/12/pokemon-crystal-pl/). I have explicitly marked which ones do.
 
 Images served by [PokéAPI](https://pokeapi.co/).
@@ -73,6 +75,9 @@ Images served by [PokéAPI](https://pokeapi.co/).
 |#0643 Reshiram                   |{% pkmnIcon  643 %}|Same as English/Japanese||
 |#0644 Zekrom                     |{% pkmnIcon  644 %}|Same as English/Japanese||
 |#0646 Kyurem                     |{% pkmnIcon  646 %}|Same as English/Japanese||
+|#0647 Keldeo                     |{% pkmnIcon  647 %}|Same as English/Japanese||
+|#0648 Meleotta                   |{% pkmnIcon  648 %}|Same as English/Japanese||
+|#0649 Genesect                   |{% pkmnIcon  649 %}|Same as English/Japanese||
 |#0664 Robakona (Scatterbug)      |{% pkmnIcon  664 %}|From *robak* (bug) and Japanese 粉 *kona* (powder, dust)||
 |#0665 Kokona (Spewpa)            |{% pkmnIcon  665 %}|From *kokon* (cocoon) and Japanese 粉 *kona* (powder, dust)||
 |#0791 Solgaleo                   |{% pkmnIcon  791 %}|Same as English/Japanese||
@@ -82,8 +87,8 @@ Images served by [PokéAPI](https://pokeapi.co/).
 |#0808 Meltan                     |{% pkmnIcon  808 %}|Same as English/Japanese||
 |#0809 Melmetal                   |{% pkmnIcon  809 %}|Same as English/Japanese||
 |#0833 Żuwik (Chewtle)            |{% pkmnIcon  833 %}|From *żuć* (to chew) and *żółwik* (turtle [diminutive])||
-|#0888 Zacian                     |{% pkmnIcon  888 %}|Same as English/Japanese||
-|#0889 Zamazenta                  |{% pkmnIcon  889 %}|Same as English/Japanese||
+|#0888 Zacian                     |{% pkmnIcon "zacian-crowned" %}|Same as English/Japanese||
+|#0889 Zamazenta                  |{% pkmnIcon "zamazenta-crowned" %}|Same as English/Japanese||
 |#0890 Eternatus                  |{% pkmnIcon  890 %}|Same as English||
 |#0893 Zarude                     |{% pkmnIcon  893 %}|Same as English/Japanese||
 |#0894 Regieleki                  |{% pkmnIcon  894 %}|Same as English/Japanese||
@@ -95,4 +100,8 @@ Images served by [PokéAPI](https://pokeapi.co/).
 |#1007 Koraidon                   |{% pkmnIcon 1007 %}|Same as English/Japanese||
 |#1008 Miraidon                   |{% pkmnIcon 1008 %}|Same as English/Japanese||
 |#1017 Ogerpon                    |{% pkmnIcon 1017 %}|Same as English/Japanese||
-|#1024 Terapagos                  |{% pkmnIcon 1024 %}|Same as English/Japanese||
+|#1024 Terapagos                  |{% pkmnIcon "terapagos-terastal" %}|Same as English/Japanese||
+
+## History
+
+- Initial release: 91 entries.
