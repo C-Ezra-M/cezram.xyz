@@ -9,8 +9,6 @@ It is I, **C.Ezra.M**! You may also call me just **Ezra**.
 ![Ezra in front of a castle and a lamppost](/ezra-with-castle-and-lamp.png)
 {%endfloat%}
 
-My real name is **Wojciech Marzec** ([ˈvɔjt͡ɕɛx ˈmaʐɛt͡s]). The nickname "C.Ezra.M" comes from my last name backwards.
-
 What do I like? Coding, conlangs, and Pokémon!
 
 ## Conlangs
@@ -18,7 +16,7 @@ What do I like? Coding, conlangs, and Pokémon!
 - The first conlang I learned was Toki Pona, since late March 2025.
 - Later, I learned Lojban starting around August or September 2025.
 - Around November, I got more involved in learning Globasa.
-- I'm also learning Xextan, and have coined quite a lot of words! Most of those are country names, but if you saw words like *vuk*, *sni*, *zel*, or *sul*, you'd be seeing my influence, too.
+- I'm also learning Xextan since December 2025, and have coined quite a lot of words! Most of those are country names, but if you saw words like *vuk*, *sni*, *zel*, *sul*, or *qna*, you'd be seeing my influence, too.
 
 ## Other facts
 
