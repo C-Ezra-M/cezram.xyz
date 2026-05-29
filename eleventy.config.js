@@ -1,4 +1,5 @@
 import { feedPlugin } from "@11ty/eleventy-plugin-rss"
+import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import { IdAttributePlugin } from "@11ty/eleventy";
 import markdownIt from "markdown-it";
 import { outdent } from "outdent";
@@ -57,4 +58,5 @@ export default function (eleventyConfig) {
 			return false;
 		}
 	});
+	eleventyConfig.addPlugin(syntaxHighlight);
 }
