@@ -8,7 +8,7 @@
     --secondary: #000088;
     --tertiary: #990066;
     --primary-muted: #FFDD99;
-    --secondary-muted: #555599;
+    --secondary-muted: #4444BB;
     --tertiary-muted: #995577;
 }
 
@@ -123,9 +123,14 @@ main::after{
 }
 
 blockquote {
-    border-left: 2px solid currentColor;
-    padding-left: 10px;
-    margin-left: 28px;
+    border-left: 4px solid light-dark(var(--secondary), var(--primary));
+    padding: 6px 10px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: light-dark(var(--primary-muted), var(--secondary-muted));
+    & > :last-child {
+        margin-bottom: 0;
+    }
 }
 
 footer {
@@ -137,6 +142,10 @@ code, kbd, samp, var {
     font-family: inherit;
     font-style: italic;
     color: light-dark(var(--tertiary), var(--primary));
+}
+
+pre {
+    font-family: inherit;
 }
 
 .float {
@@ -158,4 +167,14 @@ table {
             background-color: light-dark(var(--primary-muted), var(--secondary-muted));
         }
     }
+}
+
+p > img {
+    max-width: 100%;
+}
+
+/* Override Prism styling */
+
+code[class*="language-"], pre[class*="language-"] {
+    font-family: unset;
 }
