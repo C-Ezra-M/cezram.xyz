@@ -22,7 +22,7 @@ Images served by [PokéAPI](https://pokeapi.co/).
 |#0034 Nidoking                   |{% pkmnIcon   34 %}|Same as English/Japanese||
 |#0045 Raflezła (Vileplume)       |{% pkmnIcon   45 %}|From *Rafflesia* and *zła* (bad, mean, evil)||
 |#0100 Kulomba (Voltorb)          |{% pkmnIcon  100 %}|From *kula* (ball), *bomba* (bomb), and *kulomb* (coulomb)|"Kulomb" comes from Dark Archon's patch. I had to change it so that it's not the exact same as an actual word.|
-|#0101 Elomba (Electrode)         |{% pkmnIcon  101 %}|From *elektro-* (electro-) and *bomba* (bomb)|I was especially inspired by the prefix *el-*, seen in business names.|
+|#0101 Elomba (Electrode)         |{% pkmnIcon  101 %}|From *elektro-* (electro-) and *bomba* (bomb)|I was especially inspired by the prefix *el-*, seen in the name of a business near where I live.|
 |#0133 Eevee                      |{% pkmnIcon  133 %}|Same as English, similar to Japanese||
 |#0137 Porygon                    |{% pkmnIcon  137 %}|Same as English/Japanese||
 |#0150 Mewtwo                     |{% pkmnIcon  150 %}|Same as English/Japanese||
@@ -44,6 +44,8 @@ Images served by [PokéAPI](https://pokeapi.co/).
 |#0249 Lugia                      |{% pkmnIcon  249 %}|Same as English/Japanese||
 |#0250 Ho-Oh                      |{% pkmnIcon  250 %}|Same as English/Japanese||
 |#0251 Celebi                     |{% pkmnIcon  251 %}|Same as English/Japanese||
+|#0280 Ralts                      |{% pkmnIcon  280 %}|Same as English/Japanese||
+|#0281 Kirlia                     |{% pkmnIcon  281 %}|Same as English/Japanese||
 |#0299 Kompanos (Nosepass)        |{% pkmnIcon  299 %}|From *kompas* (compass), *kompan* (companion, comrade), and *nos* (nose)||
 |#0303 Paszczusia (Mawile)        |{% pkmnIcon  303 %}|From *paszcza* (maw) and *-usia* (diminutive suffix, used endearingly)||
 |#0321 Wielord (Wailord)          |{% pkmnIcon  321 %}|From *wieloryb* (whale) and *lord*||
@@ -54,6 +56,17 @@ Images served by [PokéAPI](https://pokeapi.co/).
 |#0374 Hantala (Beldum)           |{% pkmnIcon  374 %}|From *hantla* (dumbbell)||
 |#0375 Metang                     |{% pkmnIcon  375 %}|Same as English/Japanese||
 |#0376 Metagross                  |{% pkmnIcon  376 %}|Same as English/Japanese||
+|#0377 Regirock                   |{% pkmnIcon  377 %}|Same as English/Japanese||
+|#0378 Regice                     |{% pkmnIcon  378 %}|Same as English/Japanese||
+|#0379 Registeel                  |{% pkmnIcon  379 %}|Same as English/Japanese||
+|#0380 Latias                     |{% pkmnIcon  380 %}|Same as English/Japanese||
+|#0381 Latios                     |{% pkmnIcon  381 %}|Same as English/Japanese||
+|#0382 Kaioger                    |{% pkmnIcon  382 %}|Similar to English/Japanese|I don't like the official romanization of this Pokémon's name.|
+|#0383 Groudon                    |{% pkmnIcon  383 %}|Same as English/Japanese||
+|#0384 Rayquaza                   |{% pkmnIcon  384 %}|Same as English/Japanese||
+|#0385 Jirachi                    |{% pkmnIcon  385 %}|Same as English/Japanese||
+|#0386 Deoxys                     |{% pkmnIcon  386 %}|Same as English/Japanese||
+|#0437 Brązwon (Bronzong)         |{% pkmnIcon  437 %}|From *brąz* (bronze) and *dzwon* (bell)||
 |#0441 Papluga (Chatot)           |{% pkmnIcon  441 %}|From *paplać* (to chatter, to babble) and *papuga* (parrot)||
 |#0447 Riolu                      |{% pkmnIcon  447 %}|Same as English/Japanese||
 |#0448 Lucario                    |{% pkmnIcon  448 %}|Same as English/Japanese||
@@ -67,6 +80,8 @@ Images served by [PokéAPI](https://pokeapi.co/).
 |#0486 Regigigas                  |{% pkmnIcon  486 %}|Same as English/Japanese||
 |#0487 Giratina                   |{% pkmnIcon  487 %}|Same as English/Japanese||
 |#0488 Cresselia                  |{% pkmnIcon  488 %}|Same as English/Japanese||
+|#0493 Arceus                     |{% pkmnIcon  493 %}|Same as English/Japanese|The name looks Latinate, therefore there is pretty much freedom in how you want to pronounce the C. So, I am not changing the spelling.|
+|#0494 Victini                    |{% pkmnIcon  494 %}|Same as English/Japanese||
 |#0534 Starbeton (Conkeldurr)     |{% pkmnIcon  534 %}|From *stary* (old) and *beton* (concrete [building material])|My first idea overall.|
 |#0607 Woskuszek (Litwick)        |{% pkmnIcon  607 %}|From *wosk* (wax) and *duszek* (ghost [diminutive])||
 |#0608 Lampiór (Lampent)          |{% pkmnIcon  608 %}|From *lampa* (lamp), *lampion* (lantern), and *upiór* (ghost)||
@@ -80,13 +95,18 @@ Images served by [PokéAPI](https://pokeapi.co/).
 |#0649 Genesect                   |{% pkmnIcon  649 %}|Same as English/Japanese||
 |#0664 Robakona (Scatterbug)      |{% pkmnIcon  664 %}|From *robak* (bug) and Japanese 粉 *kona* (powder, dust)||
 |#0665 Kokona (Spewpa)            |{% pkmnIcon  665 %}|From *kokon* (cocoon) and Japanese 粉 *kona* (powder, dust)||
+|#0686 Ożeżtusz (Inkay)           |{% pkmnIcon  686 %}|From *ożeż* (holy moley!) and *tusz* (ink)||
+|#0687 Kalmarozły (Malamar)       |{% pkmnIcon  687 %}|From *kalmar* (squid, calamari) and *zły* (bad, mean, evil)|Coined during the *My Friend Malamar* campaign!|
 |#0791 Solgaleo                   |{% pkmnIcon  791 %}|Same as English/Japanese||
 |#0792 Lunala                     |{% pkmnIcon  792 %}|Same as English/Japanese||
 |#0800 Necrozma                   |{% pkmnIcon  800 %}|Same as English/Japanese||
+|#0801 Magearna                   |{% pkmnIcon  801 %}|Same as English/Japanese||
+|#0802 Marshadow                  |{% pkmnIcon  802 %}|Same as English/Japanese||
 |#0807 Zeraora                    |{% pkmnIcon  807 %}|Same as English/Japanese||
 |#0808 Meltan                     |{% pkmnIcon  808 %}|Same as English/Japanese||
 |#0809 Melmetal                   |{% pkmnIcon  809 %}|Same as English/Japanese||
 |#0833 Żuwik (Chewtle)            |{% pkmnIcon  833 %}|From *żuć* (to chew) and *żółwik* (turtle [diminutive])||
+|#0873 Ciemróz (Frosmoth)         |{% pkmnIcon  873 %}|From *ciem* (of the moths) and *mróz* (frost)||
 |#0888 Zacian                     |{% pkmnIcon "zacian-crowned" %}|Same as English/Japanese||
 |#0889 Zamazenta                  |{% pkmnIcon "zamazenta-crowned" %}|Same as English/Japanese||
 |#0890 Eternatus                  |{% pkmnIcon  890 %}|Same as English||
@@ -104,4 +124,4 @@ Images served by [PokéAPI](https://pokeapi.co/).
 
 ## History
 
-- Initial release: 91 entries.
+- Initial release: 106 entries.

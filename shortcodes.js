@@ -14,6 +14,6 @@ export async function pokemonRow(pkmn) {
 export async function pokemonIcon(pkmn) {
     const apiPkmn = await P.getPokemonByName(pkmn)
     const enName = (await P.getResource(apiPkmn.species.url)).names.find(e => e.language.name === "en").name;
-    const img = apiPkmn.sprites.front_default
-    return `<img src="${img}" alt="${enName}">`
+    const img = apiPkmn.sprites.other['official-artwork'].front_default
+    return `<img width="80" height="80" src="${img}" alt="${enName}">`
 }
