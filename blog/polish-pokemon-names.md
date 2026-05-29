@@ -124,4 +124,4 @@ Images served by [PokéAPI](https://pokeapi.co/).
 
 ## History
 
-- Initial release: 106 entries.
+- Initial release: 111 entries.
