@@ -22,7 +22,7 @@ Images served by [PokéAPI](https://pokeapi.co/).
 |#0034 Nidoking                   |{% pkmnIcon   34 %}|Same as English/Japanese||
 |#0045 Raflezła (Vileplume)       |{% pkmnIcon   45 %}|From *Rafflesia* and *zła* (bad, mean, evil)||
 |#0100 Kulomba (Voltorb)          |{% pkmnIcon  100 %}|From *kula* (ball), *bomba* (bomb), and *kulomb* (coulomb)|"Kulomb" comes from Dark Archon's patch. I had to change it so that it's not the exact same as an actual word.|
-|#0101 Elomba (Electrode)         |{% pkmnIcon  101 %}|From *elektro-* (electro-) and *bomba* (bomb)|I was especially inspired by the prefix *el-*, seen in the name of a business near where I live.|
+|#0101 Elomba (Electrode)         |{% pkmnIcon  101 %}|From *elektro-* (electro-) and *bomba* (bomb)|I was especially inspired by the prefix *el-*, seen in the name of a now-defunct business near where I live.|
 |#0133 Eevee                      |{% pkmnIcon  133 %}|Same as English, similar to Japanese||
 |#0137 Porygon                    |{% pkmnIcon  137 %}|Same as English/Japanese||
 |#0150 Mewtwo                     |{% pkmnIcon  150 %}|Same as English/Japanese||

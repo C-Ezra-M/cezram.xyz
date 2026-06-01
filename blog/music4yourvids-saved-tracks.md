@@ -102,7 +102,7 @@ And for PowerShell on Windows:
 ```powershell
 curl https://web.archive.org/web/20130302222728/http://music4yourvids.co.uk/freemusic.html `
 | sls 'https?://www\.mediafire\.com/.+?(?=")' -raw `
-| foreach { echo "$_ $(curl $_ -I -s | gc -head 1)" }
+| foreach { echo "$_ $(curl $_ -I -s | gc -head 1)" } `
 | sls '200 OK'
 ```
 
