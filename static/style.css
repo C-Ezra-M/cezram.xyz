@@ -181,6 +181,8 @@ code[class*="language-"], pre[class*="language-"] {
 
 .page-info {
     font-size: smaller;
+    margin-top: 0.85em;
+    margin-bottom: 0.85em;
     ul > li {
         display: inline;
         &:not(:last-child)::before {
@@ -190,6 +192,10 @@ code[class*="language-"], pre[class*="language-"] {
     ul {
         display: contents;
     }
+}
+
+h1:has(+ .page-info) {
+    margin-bottom: 0;
 }
 
 hr {
