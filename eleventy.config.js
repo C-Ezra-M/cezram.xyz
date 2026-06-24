@@ -4,7 +4,8 @@ import { IdAttributePlugin } from "@11ty/eleventy";
 import markdownIt from "markdown-it";
 import { outdent } from "outdent";
 import { minify } from "terser";
-import { pokemonIcon } from "./shortcodes.js";
+import { pokemonIcon, youtube } from "./shortcodes.js";
+import { fmtDate } from "./filters.js";
 
 export default function (eleventyConfig) {
 	/** @type markdownIt.Options */
@@ -59,4 +60,6 @@ export default function (eleventyConfig) {
 		}
 	});
 	eleventyConfig.addPlugin(syntaxHighlight);
+	eleventyConfig.addShortcode("youtube", youtube);
+	eleventyConfig.addFilter("fmtdate", fmtDate);
 }
