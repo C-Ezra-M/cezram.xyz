@@ -178,3 +178,20 @@ p > img {
 code[class*="language-"], pre[class*="language-"] {
     font-family: unset;
 }
+
+.page-info {
+    font-size: smaller;
+    ul > li {
+        display: inline;
+        &:not(:last-child)::before {
+            content: " · "
+        }
+    }
+    ul {
+        display: contents;
+    }
+}
+
+hr {
+    border: 1px solid light-dark(var(--secondary), var(--primary));
+}

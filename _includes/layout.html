@@ -29,6 +29,24 @@
     </nav>
     <main>
         <h1>{{ title }}</h1>
+        {%- assign isPost = tags | has_exp: "t", "t == 'post'" -%}
+        {%- assign restTags = tags | where_exp: "t", "t != 'post'" -%}
+        {%- if isPost -%}
+            <section class="page-info">
+                <time datetime="{{ date | date: '%Y-%m-%d' }}">{{ date | fmtdate }}</time><br>
+                Tags:
+                {%- if restTags.size >= 1 -%}
+                    <ul>
+                        {%- for tag in restTags %}
+                        <li><a href="/blog-tagged/{{tag | slug}}">{{tag}}</></li>
+                        {% endfor -%}
+                    </ul>
+                {%- else -%}
+                &#x20;None
+                {%- endif -%}
+            </section>
+            <hr>
+        {%- endif -%}
         {{ content }}
     </main>
     <footer>
