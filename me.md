@@ -22,9 +22,10 @@ What do I like? Coding, conlangs, and Pokémon!
 
 - Night owl. 🦉
 - I used to go by many nicknames, but the most prominent ones before C.Ezra.M were **Keyacom**, and earlier **TheICTLiker4**.
-{% # - Rachel Gardener, the sole contributor to the music project Noise and Bells, is arguably my favorite musician. I simply LOOOOOVE her bittersweet tunes.
-    # - (jo'au tcekitau je jboponei) .i la janbe poi ki po'o gunka le zgike tau la'o zoi Noise and Bells zoi cu la'a se nelrai mi po mi sa'u mutce co nelci sai le jy. drigei zgike
-%}
+{% comment %}
+- Rachel Gardener, the sole contributor to the music project Noise and Bells, is arguably my favorite musician. I simply LOOOOOVE her bittersweet tunes.
+    - (jo'au tcekitau je jboponei) .i la janbe poi ki po'o gunka le zgike tau la'o zoi Noise and Bells zoi cu la'a se nelrai mi po mi sa'u mutce co nelci sai le jy. drigei zgike
+{% endcomment %}
 
 ## Contact
 
