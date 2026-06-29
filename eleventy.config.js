@@ -36,7 +36,7 @@ export default function (eleventyConfig) {
 			language: "en",
 			title: "The Ezranians Blog",
 			subtitle: "",
-			base: "https://cezram.neocities.org/",
+			base: "https://cezram.xyz/",
 			author: {
 				name: "C.Ezra.M",
 				email: "",
