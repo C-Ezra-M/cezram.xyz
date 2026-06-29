@@ -34,11 +34,11 @@
         {%- if isPost -%}
             <section class="page-info">
                 <time datetime="{{ date | date: '%Y-%m-%d' }}">{{ date | fmtdate }}</time><br>
-                Tags:
+                Tags <em>(feature incomplete)</em>:
                 {%- if restTags.size >= 1 -%}
                     <ul>
                         {%- for tag in restTags %}
-                        <li><a href="/blog-tagged/{{tag | slug}}">{{tag}}</></li>
+                        <li><a href="/tags/{{tag | slugify}}">{{tag}}</a></li>
                         {% endfor -%}
                     </ul>
                 {%- else -%}
