@@ -119,6 +119,7 @@ For convenience of finding, they are in alphabetical order.
 |*Flight of Fantasy*|🪞 Unofficial Mirror|https://www.youtube.com/watch?v=FrdmwFKyK1g|
 |*Full Throttle*|🪞 Unofficial Mirror|https://www.youtube.com/watch?v=dZmocLF4JyI|
 |*Heading into Battle*|🪞 Unofficial Mirror|https://www.youtube.com/watch?v=AFliS8HQ2WI|
+|*Ice Plains of Nomahdee*|🪞 Unofficial Mirror|https://www.youtube.com/watch?v=QclbdDevf6U|
 |*Oriental Trance*|🪞 Unofficial Mirror|https://www.youtube.com/watch?v=xoCgJS26e80|
 |*Retro Lounge Mix*|🪞 Unofficial Mirror|https://www.youtube.com/watch?v=Pqk8BPDEj60|
 |*Summer Morning*|🪞 Unofficial Mirror|https://www.youtube.com/watch?v=S1SJPRUmvqQ|

@@ -1,6 +1,7 @@
 ---
 title: How to use The Ezranians' RSS feed
 layout: layout.html
+_draft: true
 ---
 
 - **Use an RSS reader**. Here are the recommended ones for each platform, which I chose based on the ability to send push notifications:

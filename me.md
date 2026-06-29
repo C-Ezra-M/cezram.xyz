@@ -22,16 +22,24 @@ What do I like? Coding, conlangs, and Pokémon!
 
 - Night owl. 🦉
 - I used to go by many nicknames, but the most prominent ones before C.Ezra.M were **Keyacom**, and earlier **TheICTLiker4**.
-{%comment%}- Rachel Gardener, the sole contributor to the music project Noise and Bells, is arguably my favorite musician. I simply LOOOOOVE her bittersweet tunes.
-    - (jo'au tcekitau je jboponei) .i la janbe poi ki po'o gunka le zgike tau la'o zoi Noise and Bells zoi cu la'a se nelrai mi po mi sa'u mutce co nelci sai le jy. drigei zgike
-{%endcomment%}
+{% # - Rachel Gardener, the sole contributor to the music project Noise and Bells, is arguably my favorite musician. I simply LOOOOOVE her bittersweet tunes.
+    # - (jo'au tcekitau je jboponei) .i la janbe poi ki po'o gunka le zgike tau la'o zoi Noise and Bells zoi cu la'a se nelrai mi po mi sa'u mutce co nelci sai le jy. drigei zgike
+%}
 
 ## Contact
 
 ### Public-Facing Communities
 
-- [Ezra's Room](https://fluxer.gg/8p2HbyFX) on Fluxer
-- [C.Ezra.M's City of Ethereal Might](https://discord.gg/cNu3zpr) on Discord
+- [Ezra's Room](https://fluxer.gg/8p2HbyFX) on Fluxer (recommended)
+- [C.Ezra.M's City of Ethereal Might](https://discord.gg/cNu3zpr) on Discord (semi-retired; new people should join the Fluxer community)
+
+### Directly
+
+- Fluxer: cezram#9650
+- Discord: c.ezra.m
+- Email: cezram AT proton DOT me (well, I had to reveal this because it is encoded into my PGP key)
+
+### PGP
 
 Below is my public PGP key. It is also located under [`pgp-key.txt`](/pgp-key.txt), so you can easily download it with `curl` or similar.
 

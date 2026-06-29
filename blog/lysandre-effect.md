@@ -1,5 +1,6 @@
 ---
 title: Lysandre - Big Warning Sign
+_draft: true
 ---
 
 > **⚠️ SPOILER WARNING**
