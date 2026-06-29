@@ -29,7 +29,7 @@ tasks:
     cmds:
       - rm -rf pkgs
       - rm -f script.js
-      - rm -f *.njk
+      - rm -f *.liquid
   build-no-post:
     desc: Builds the site clean, with no post-build cleanup
     cmds:
