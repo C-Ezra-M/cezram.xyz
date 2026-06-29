@@ -1,6 +1,6 @@
 ---
 title: Can You Beat Pokémon FireRed with Status Moves Only?
-_draft: true
+draft: true
 ---
 
 > ℹ️ **CONTINUOUS UPDATES**
