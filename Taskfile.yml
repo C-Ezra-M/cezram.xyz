@@ -22,14 +22,14 @@ tasks:
   clean:
     desc: Deletes the `_site` directory to ensure a clean build
     cmds:
-      - rm -r _site
+      - rm -rf _site
   post-build:
     desc: Operations after building
     dir: _site
     cmds:
-      - rm -r pkgs
-      - rm script.js
-      - rm *.njk
+      - rm -rf pkgs
+      - rm -f script.js
+      - rm -f *.njk
   build-no-post:
     desc: Builds the site clean, with no post-build cleanup
     cmds:
