@@ -14,3 +14,5 @@ Another perk I get from Porkbun is subdomains. I may only get 10 with my plan, b
 The old site remains on https://cezram.neocities.org/. Because this was made before I decided to not use Neocities, there is also a copy located at https://c-ezra-m.github.io/neocities-archive.
 
 This site also has a [guestbook](https://cezram.atabook.org/) from the start. The blog also has a [RSS feed](/blog/feed.xml).
+
+This site remains under construction as of right now. I have to make proper icons for the light-dark mode switch.
