@@ -1,8 +1,9 @@
 ---
 title: Polish Pokémon Names - An Ever-Growing List
+date: 2026-06-30
 ---
 
-Currently, this list has 111 entries.
+This is the successor to a similar [project](https://cezram.neocities.org/pl/pokemon/) of mine hosted on the old Neocities site. Currently, this list has 111 entries.
 
 Some of those names were not fully my ideas. For example, some come from [Dark Archon's Polish Pokémon Crystal patch](https://ar.hn/2023/12/pokemon-crystal-pl/). I have explicitly marked which ones do.
 

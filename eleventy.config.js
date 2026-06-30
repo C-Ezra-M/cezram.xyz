@@ -27,14 +27,14 @@ export default function (eleventyConfig) {
 	//eleventyConfig.addPassthroughCopy("not_found.md", "not_found.html");
     eleventyConfig.addPlugin(feedPlugin, {
 		type: "rss",
-		outputPath: "/feed.xml",
+		outputPath: "/blog/feed.xml",
 		collection: {
 			name: "post", // iterate over `collections.post`
 			limit: 20,     // 0 means no limit
 		},
 		metadata: {
 			language: "en",
-			title: "The Ezranians Blog",
+			title: "cezram.xyz Blog",
 			subtitle: "",
 			base: "https://cezram.xyz/",
 			author: {
