@@ -1,0 +1,3 @@
+[submodule "rarezen"]
+	path = rarezen
+	url = https://github.com/C-Ezra-M/rarezen.git
