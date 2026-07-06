@@ -5,6 +5,9 @@ _site/
 node_modules/
 static/pkgs/
 
+# Font files
+static/*.ttf
+
 # macOS-specific
 .DS_Store
 
