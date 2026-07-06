@@ -49,3 +49,9 @@ tasks:
     cmds:
       - task: build
       - task: publish
+  copy-fonts:
+    desc: Copies fonts from the RareZen repository
+    sources: ['rarezen/dist/RareZen/TTF/*.ttf', 'rarezen/dist/RareZenMono/TTF/*.ttf']
+    cmds:
+      - for: sources
+        cmd: cp {{.ITEM}} static/$(echo "{{.ITEM}}" | grep -Po "(?<=/)[^/]+$")
