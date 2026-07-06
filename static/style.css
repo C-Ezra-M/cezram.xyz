@@ -10,12 +10,16 @@
     --primary-muted: #FFDD99;
     --secondary-muted: #4444BB;
     --tertiary-muted: #995577;
+    --font-content: 'RareZen', Arial, Helvetica, sans-serif;
+    --font-monospace: 'RareZen Mono', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace, serif;
 }
 
 html {
     color-scheme: dark;
     padding: 0.5rem;
-    font-family: Iosevka, Consolas, 'Courier New', Courier, monospace, serif;
+    font-family: var(--font-content);
+    font-stretch: condensed;
+    font-width: condensed;
     background-image:
         linear-gradient(to bottom, transparent 50%, var(--secondary) 95%),
         url(/tiling-dark.png);
@@ -140,13 +144,15 @@ footer {
 }
 
 code, kbd, samp, var {
-    font-family: inherit;
+    font-family: var(--font-monospace);
     font-style: italic;
     color: light-dark(var(--tertiary), var(--primary));
+    font-stretch: normal;
 }
 
 pre {
-    font-family: inherit;
+    font-family: var(--font-monospace);
+    font-stretch: normal;
 }
 
 .float {
@@ -177,7 +183,7 @@ p > img {
 /* Override Prism styling */
 
 code[class*="language-"], pre[class*="language-"] {
-    font-family: unset;
+    font-family: var(--font-monospace);
 }
 
 .page-info {

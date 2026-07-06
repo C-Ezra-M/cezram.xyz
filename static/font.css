@@ -1,0 +1,289 @@
+
+@font-face {
+	font-family: 'RareZen';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: condensed;
+	font-style: normal;
+	src: url('/RareZen-Condensed.ttf');
+}
+
+@font-face {
+	font-family: 'RareZen';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('/RareZen-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'RareZen';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: condensed;
+	font-style: italic;
+	src: url('/RareZen-CondensedItalic.ttf');
+}
+
+@font-face {
+	font-family: 'RareZen';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('/RareZen-Italic.ttf');
+}
+
+@font-face {
+	font-family: 'RareZen';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: condensed;
+	font-style: normal;
+	src: url('/RareZen-CondensedBold.ttf');
+}
+
+@font-face {
+	font-family: 'RareZen';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('/RareZen-Bold.ttf');
+}
+
+@font-face {
+	font-family: 'RareZen';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: condensed;
+	font-style: italic;
+	src: url('/RareZen-CondensedBoldItalic.ttf');
+}
+
+@font-face {
+	font-family: 'RareZen';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('/RareZen-BoldItalic.ttf');
+}
+
+@font-face {
+	font-family: 'RareZen';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: condensed;
+	font-style: normal;
+	src: url('/RareZen-CondensedExtraLight.ttf');
+}
+
+@font-face {
+	font-family: 'RareZen';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('/RareZen-ExtraLight.ttf');
+}
+
+@font-face {
+	font-family: 'RareZen';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: condensed;
+	font-style: italic;
+	src: url('/RareZen-CondensedExtraLightItalic.ttf');
+}
+
+@font-face {
+	font-family: 'RareZen';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('/RareZen-ExtraLightItalic.ttf');
+}
+
+@font-face {
+	font-family: 'RareZen';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: condensed;
+	font-style: normal;
+	src: url('/RareZen-CondensedHeavy.ttf');
+}
+
+@font-face {
+	font-family: 'RareZen';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('/RareZen-Heavy.ttf');
+}
+
+@font-face {
+	font-family: 'RareZen';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: condensed;
+	font-style: italic;
+	src: url('/RareZen-CondensedHeavyItalic.ttf');
+}
+
+@font-face {
+	font-family: 'RareZen';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('/RareZen-HeavyItalic.ttf');
+}
+
+
+@font-face {
+	font-family: 'RareZen Mono';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: condensed;
+	font-style: normal;
+	src: url('/RareZenMono-Condensed.ttf');
+}
+
+@font-face {
+	font-family: 'RareZen Mono';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('/RareZenMono-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'RareZen Mono';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: condensed;
+	font-style: italic;
+	src: url('/RareZenMono-CondensedItalic.ttf');
+}
+
+@font-face {
+	font-family: 'RareZen Mono';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('/RareZenMono-Italic.ttf');
+}
+
+@font-face {
+	font-family: 'RareZen Mono';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: condensed;
+	font-style: normal;
+	src: url('/RareZenMono-CondensedBold.ttf');
+}
+
+@font-face {
+	font-family: 'RareZen Mono';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('/RareZenMono-Bold.ttf');
+}
+
+@font-face {
+	font-family: 'RareZen Mono';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: condensed;
+	font-style: italic;
+	src: url('/RareZenMono-CondensedBoldItalic.ttf');
+}
+
+@font-face {
+	font-family: 'RareZen Mono';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('/RareZenMono-BoldItalic.ttf');
+}
+
+@font-face {
+	font-family: 'RareZen Mono';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: condensed;
+	font-style: normal;
+	src: url('/RareZenMono-CondensedExtraLight.ttf');
+}
+
+@font-face {
+	font-family: 'RareZen Mono';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('/RareZenMono-ExtraLight.ttf');
+}
+
+@font-face {
+	font-family: 'RareZen Mono';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: condensed;
+	font-style: italic;
+	src: url('/RareZenMono-CondensedExtraLightItalic.ttf');
+}
+
+@font-face {
+	font-family: 'RareZen Mono';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('/RareZenMono-ExtraLightItalic.ttf');
+}
+
+@font-face {
+	font-family: 'RareZen Mono';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: condensed;
+	font-style: normal;
+	src: url('/RareZenMono-CondensedHeavy.ttf');
+}
+
+@font-face {
+	font-family: 'RareZen Mono';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('/RareZenMono-Heavy.ttf');
+}
+
+@font-face {
+	font-family: 'RareZen Mono';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: condensed;
+	font-style: italic;
+	src: url('/RareZenMono-CondensedHeavyItalic.ttf');
+}
+
+@font-face {
+	font-family: 'RareZen Mono';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('/RareZenMono-HeavyItalic.ttf');
+}
