@@ -85,6 +85,7 @@ header {
     ;
     border: 2px solid light-dark(var(--secondary), var(--primary));
     margin-bottom: 0.5rem;
+    image-rendering: pixelated;
     &:has(#mode-switcher:checked) {
         background-image: 
             url(/header-icon-light.png),
@@ -223,4 +224,8 @@ hr {
     .blog-posts {
         grid-template-columns: 1fr 1fr;
     }
+}
+
+.pixelated {
+    image-rendering: pixelated;
 }
