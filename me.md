@@ -3,11 +3,11 @@ title: About Me
 layout: layout.html
 ---
 
-It is I, **C.Ezra.M**! You may also call me just **Ezra**.
+It is I, **C.Ezra.M**! You may also call me just **Ezra**. My pronouns are he/him, but they/them are also okay.
 
-{%float%}
-![Ezra in front of a castle and a lamppost](/ezra-with-castle-and-lamp.png)
-{%endfloat%}
+{%-float-%}
+<img src="/ezra-with-castle-and-lamp.png" alt="Ezra in front of a castle and a lamppost" class="pixelated">
+{%-endfloat-%}
 
 What do I like? Coding, conlangs, and Pokémon!
 
