@@ -201,3 +201,26 @@ h1:has(+ .page-info) {
 hr {
     border: 1px solid light-dark(var(--secondary), var(--primary));
 }
+
+.blog-posts-wrapper {
+    container: grid / inline-size;
+}
+
+.blog-posts {
+    display: grid;
+    margin-bottom: 0.5em;
+    gap: 0.5em;
+    > article {
+        background-color: light-dark(var(--primary-muted), var(--secondary-muted));
+        padding: 0.5em;
+        > h3, > :last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+@container grid (width > 540px) {
+    .blog-posts {
+        grid-template-columns: 1fr 1fr;
+    }
+}

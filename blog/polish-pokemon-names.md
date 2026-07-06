@@ -1,6 +1,8 @@
 ---
 title: Polish Pokémon Names - An Ever-Growing List
 date: 2026-06-30
+tags:
+    - Pokémon
 ---
 
 This is the successor to a similar [project](https://cezram.neocities.org/pl/pokemon/) of mine hosted on the old Neocities site. Currently, this list has 111 entries.

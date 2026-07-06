@@ -2,6 +2,8 @@
 title: "FLOW 0: The Introduction to Fluxer's Second* Ever Camp"
 tags:
     - FLOW (camp)
+description: |
+  (This post includes a YouTube video.) This camp runs on points, just like BFRK, BFRP, or BFRP NEO. At the end of each challenge, I will average the scores of each team. The contestant with the lowest score on the lowest-scoring team is eliminated.
 date: 2026-06-21
 ---
 

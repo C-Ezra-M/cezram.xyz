@@ -1,6 +1,8 @@
 ---
 title: A New Beginning to C.Ezra.M's Website
 date: 2026-06-30
+tags:
+    - About cezram.xyz
 ---
 
 So apparently I have decided against having my new website on Neocities. Instead, I decided to get a domain and hosting package from [Porkbun](https://porkbun.com/). Yes, it costs money. No, I don't care.
