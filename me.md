@@ -44,6 +44,8 @@ What do I like? Coding, conlangs, and Pokémon!
 
 Below is my public PGP key. It is also located under [`pgp-key.txt`](/pgp-key.txt), so you can easily download it with `curl` or similar.
 
+The fingerprint is `BBF592BEFADCABCA8C649A3725D4AC4E44CC5FC4`.
+
 ```txt
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
