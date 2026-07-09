@@ -6,6 +6,11 @@ tags:
 description: This camp runs on points, just like BFRK, BFRP, or BFRP NEO. At the end of each challenge, I will average the scores of each team. The contestant with the lowest score on the lowest-scoring team is eliminated.
 ---
 
+## Links
+
+- [Ezra's Room](https://fluxer.gg/8p2HbyFX) on Fluxer
+- Latest episode: [FLOW 0](/blog/flow-0)
+
 ## Overview
 
 This camp runs on points, just like BFRK, BFRP, or BFRP NEO. At the end of each challenge, I will average the scores of each team. The contestant with the lowest score on the lowest-scoring team is eliminated.

@@ -7,6 +7,11 @@ description: |
 date: 2026-06-21
 ---
 
+## Links
+
+- [Ezra's Room](https://fluxer.gg/8p2HbyFX) on Fluxer
+- [FLOW: Permanent Info](/blog/flow-permanent-info)
+
 {% youtube "inIoDm65JK0" %}
 
 ## Overview
