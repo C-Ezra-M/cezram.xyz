@@ -13,3 +13,6 @@ static/*.ttf
 
 # Drafts
 _drafts
+
+# Software-specific
+.task
