@@ -5,7 +5,7 @@ import markdownIt from "markdown-it";
 import { outdent } from "outdent";
 import { minify } from "terser";
 import { pokemonIcon, youtube } from "./shortcodes.js";
-import { fmtDate, sortExp } from "./filters.js";
+import { fmtDate, fmtFullDate, jsonParse, sortExp, toDateObject } from "./filters.js";
 
 export default function (eleventyConfig) {
 	/** @type markdownIt.Options */
@@ -62,5 +62,8 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPlugin(syntaxHighlight);
 	eleventyConfig.addShortcode("youtube", youtube);
 	eleventyConfig.addFilter("fmtdate", fmtDate);
+	eleventyConfig.addFilter("fmtFullDate", fmtFullDate);
 	eleventyConfig.addFilter("sort_exp", sortExp)
+	eleventyConfig.addFilter("jsonparse", jsonParse)
+	eleventyConfig.addFilter("toDateObject", toDateObject)
 }
