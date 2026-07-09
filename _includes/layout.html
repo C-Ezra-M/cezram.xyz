@@ -1,11 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ lang | default: "en" }}">
 <head>
+    {%- capture ogDesc -%}
+        {%- if description != null -%}
+        {{- description | strip_html | truncatewords: 30 -}}
+        {%- else -%}
+        {{- content | strip_html | truncatewords: 30 -}}
+        {%- endif -%}
+    {%- endcapture -%}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/favicon.png"/>
     <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet"/>
     <meta name="generator" content="{{ eleventy.generator }}">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:description" content="{{ ogDesc | escape }}">
+    <meta property="og:url" content="{{ url }}">
+    <meta property="og:sitename" content="cezram.xyz">
+    <meta property="og:locale" content="{{ lang | default: "en" }}">
     <link rel="stylesheet" href="/style.css" media="screen">
     <link rel="stylesheet" href="/font.css">
     <title>{{ title }} | C.Ezra.M</title>
