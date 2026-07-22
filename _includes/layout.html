@@ -13,7 +13,7 @@
     <link rel="icon" href="/favicon.png"/>
     <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet"/>
     <meta name="generator" content="{{ eleventy.generator }}">
-    <meta property="og:title" content="{{ title }}">
+    <meta property="og:title" content="{{ title | escape }}">
     <meta property="og:description" content="{{ ogDesc | escape }}">
     <meta property="og:url" content="{{ url }}">
     <meta property="og:sitename" content="cezram.xyz">
@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="/font.css">
     <title>{{ title }} | C.Ezra.M</title>
     <script src="/bundle.js"></script>
+    <script src="https://keepandroidopen.org/banner.js?size=minimal&hidebutton=off&animation=off" defer></script>
 </head>
 <body>
     <header>
