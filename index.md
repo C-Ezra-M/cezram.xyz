@@ -30,3 +30,5 @@ layout: layout.html
 - [RSS feed](/blog/feed.xml)
 
 <iframe id="bucket-webring" title="Webring navigation" style="width: 100%; height: 3rem; border: none;" src="https://webring.bucketfish.me/embed.html?name=C.Ezra.M"></iframe>
+
+[![Stop Killing the Internet](/stop-killing-the-internet.png)](https://www.stopkillingtheinternet.com)

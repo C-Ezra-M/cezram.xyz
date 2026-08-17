@@ -2,11 +2,12 @@
 title: First Update Post-Deployment & How It's Made
 tags:
     - About cezram.xyz
+date: 2026-07-09 22:48:00+02:00
 ---
 
 In this post, I'm revealing details of the newest website update, and how it's made. I'm using [Eleventy](https://11ty.dev), a static site generator, to build this site. I decided to challenge myself to navigate an unfamiliar framework, since my previous site is built with Astro instead.
 
-There is a multitude of other software I use to make this website. I have a set of tasks to use with [`task`](https://taskfile.dev). I run stuff with NodeJS, and install packages with npm. I also use [VSCodium](https://vscodium.com/#moreinfo) as my code editor.
+There is a multitude of other software I use to make this website. I have a set of tasks to use with [`task`](https://taskfile.dev). I run stuff with NodeJS, and install packages with npm. I also use [VSCodium](https://vscodium.com/) as my code editor.
 
 ## Changes
 

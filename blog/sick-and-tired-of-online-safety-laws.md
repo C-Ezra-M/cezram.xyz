@@ -3,7 +3,7 @@ title: Sick and Tired of New "Online Safety" Laws
 date: 2026-07-04
 description: (This post includes a YouTube video.) I am sick and tired of those "protect the children" battle cries as an excuse to invade our privacy.
 tags:
-    - Digital privacy
+    - Digital rights
 ---
 
 {% youtube "MriSrFhIyzw" %}
