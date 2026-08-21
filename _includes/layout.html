@@ -45,7 +45,9 @@
     <main>
         <h1>{{ title }}</h1>
         {%- assign isPost = tags | has_exp: "t", "t == 'post'" -%}
-        {%- assign restTags = tags | where_exp: "t", "t != 'post'" -%}
+        {%- assign isArt = tags | has_exp: "t", "t == 'art'" -%}
+        {%- assign restTags = tags | where_exp: "t", "t != 'post' -%}
+        {%- assign restTags = restTags | where_exp: "t", "t != 'art' -%}
         {%- if isPost -%}
             <section class="page-info">
                 <time datetime="{{ date | date: '%Y-%m-%d' }}">{{ date | fmtdate }}</time><br>
@@ -61,6 +63,22 @@
                 {%- endif -%}
             </section>
             <hr>
+        {%- elsif isArt -%}
+            <section class="page-info">
+                <time datetime="{{ date | date: '%Y-%m-%d' }}">{{ date | fmtdate }}</time><br>
+                Tags <em>(feature incomplete)</em>:
+                {%- if restTags.size >= 1 -%}
+                    <ul>
+                        {%- for tag in restTags %}
+                        <li><a href="/tags/{{tag | slugify}}">{{tag}}</a></li>
+                        {% endfor -%}
+                    </ul>
+                {%- else -%}
+                &#x20;None
+                {%- endif -%}
+            </section>
+            <hr>
+            <img src="{{path}}" >
         {%- endif -%}
         {{ content }}
     </main>
