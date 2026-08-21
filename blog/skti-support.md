@@ -4,7 +4,7 @@ tags:
     - Digital rights
 ---
 
-The **Stop Killing the Internet** movement was created 
+The **Stop Killing the Internet** movement was created to raise awareness of government influence over the Internet. This includes controversial procedures, like ID verification and censorship.
 
 To this end, I made a badge that you can put up on your website.
 
