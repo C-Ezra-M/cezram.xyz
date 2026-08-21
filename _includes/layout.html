@@ -8,6 +8,8 @@
         {{- content | strip_html | truncatewords: 30 -}}
         {%- endif -%}
     {%- endcapture -%}
+    {%- assign isPost = tags | has_exp: "t", "t == 'post'" -%}
+    {%- assign isArt = tags | has_exp: "t", "t == 'art'" -%}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/favicon.png"/>
@@ -44,8 +46,6 @@
     </nav>
     <main>
         <h1>{{ title }}</h1>
-        {%- assign isPost = tags | has_exp: "t", "t == 'post'" -%}
-        {%- assign isArt = tags | has_exp: "t", "t == 'art'" -%}
         {%- assign restTags = tags | where_exp: "t", "t != 'post' -%}
         {%- assign restTags = restTags | where_exp: "t", "t != 'art' -%}
         {%- if isPost -%}
@@ -78,7 +78,9 @@
                 {%- endif -%}
             </section>
             <hr>
-            <img src="{{path}}" >
+            <p>
+                <img src="{{path}}" >
+            </p>
         {%- endif -%}
         {{ content }}
     </main>
