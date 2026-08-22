@@ -1,7 +1,7 @@
 _site
 _cache
 .env
-
+*.ttf
 _drafts
 .DS_Store
 node_modules/

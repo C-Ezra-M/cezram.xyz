@@ -1,0 +1,5 @@
+metas:
+  site: cezram.xyz
+  lang: en
+  generator: true
+  title: "=title || Untitled"

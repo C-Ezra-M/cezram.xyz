@@ -1,16 +1,12 @@
 <!DOCTYPE html>
-{{default }}
-<html lang="{{ lang | default: "en" }}">
+{{ default lang = "en" }}
+<html lang="{{ lang }}">
 <head>
-    {%- capture ogDesc -%}
-        {%- if description != null -%}
-        {{- description | strip_html | truncatewords: 30 -}}
-        {%- else -%}
-        {{- content | strip_html | truncatewords: 30 -}}
-        {%- endif -%}
-    {%- endcapture -%}
-    {%- assign isPost = tags | has_exp: "t", "t == 'post'" -%}
-    {%- assign isArt = tags | has_exp: "t", "t == 'art'" -%}
+    {{set ogDesc}}
+        {{ (description !== null ? description : content) |> plaintext }}
+    {{ /set }}
+    {{ set isPost = tags.includes("post") }}
+    {{ set isArt = tags.includes("art") }}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/favicon.png"/>
