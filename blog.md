@@ -1,6 +1,6 @@
 ---
 title: The Directory of All Blog Posts
-layout: layout.html
+layout: layout.vto
 ---
 
 This is a reverse chronological list of all blog posts at cezram.xyz. The blog also has a [RSS feed](/blog/feed.xml) limited to the latest 20 posts.

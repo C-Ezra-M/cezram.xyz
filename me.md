@@ -1,6 +1,6 @@
 ---
 title: About Me
-layout: layout.html
+layout: layout.vto
 ---
 
 It is I, **C.Ezra.M**! You may also call me just **Ezra**. My pronouns are he/him, but they/them are also okay.

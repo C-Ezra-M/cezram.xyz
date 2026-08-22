@@ -1,6 +1,6 @@
 ---
 title: Welcome to C.Ezra.M's website
-layout: layout.html
+layout: layout.vto
 ---
 
 ## Latest Blog Entries

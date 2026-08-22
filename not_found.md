@@ -1,6 +1,6 @@
 ---
 title: Not Found
-layout: layout.html
+layout: layout.vto
 permalink: not_found.html
 ---
 

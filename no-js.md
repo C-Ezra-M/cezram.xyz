@@ -1,6 +1,6 @@
 ---
 title: Effects of disabling JavaScript
-layout: layout.html
+layout: layout.vto
 ---
 
 **For most purposes, JavaScript support remains optional.** Some features will, however, not work properly with JavaScript disabled.
