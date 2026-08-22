@@ -1,6 +1,6 @@
 ---
 title: How to use RSS
-layout: layout.html
+layout: layout.vto
 draft: true
 ---
 
