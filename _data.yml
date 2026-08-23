@@ -3,3 +3,5 @@ metas:
   lang: en
   generator: true
   title: "=title || Untitled"
+  color: "#FFBB22"
+  icon: favicon.png
