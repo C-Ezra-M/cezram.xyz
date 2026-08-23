@@ -12,11 +12,11 @@
     <link rel="icon" href="/favicon.png"/>
     <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet"/>
     <meta name="generator" content="{{ eleventy.generator }}">
-    <meta property="og:title" content="{{ title | escape }}">
-    <meta property="og:description" content="{{ ogDesc | escape }}">
+    <meta property="og:title" content="{{ title |> escape }}">
+    <meta property="og:description" content="{{ ogDesc |> escape }}">
     <meta property="og:url" content="{{ url }}">
     <meta property="og:sitename" content="cezram.xyz">
-    <meta property="og:locale" content="{{ lang | default: "en" }}">
+    <meta property="og:locale" content="{{ lang }}">
     <link rel="stylesheet" href="/style.css" media="screen">
     <link rel="stylesheet" href="/font.css">
     <title>{{ title }} | C.Ezra.M</title>
@@ -43,9 +43,7 @@
     </nav>
     <main>
         <h1>{{ title }}</h1>
-        {%- assign restTags = tags | where_exp: "t", "t != 'post' -%}
-        {%- assign restTags = restTags | where_exp: "t", "t != 'art' -%}
-        {%- if isPost -%}
+        {{ set restTags = tags.filter(e => !['post', 'art'].includes(e)) }}
             <section class="page-info">
                 <time datetime="{{ date | date: '%Y-%m-%d' }}">{{ date | fmtdate }}</time><br>
                 Tags <em>(feature incomplete)</em>:
