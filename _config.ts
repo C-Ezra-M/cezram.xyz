@@ -1,6 +1,7 @@
 import lume from "lume/mod.ts";
 import plaintext from "lume/plugins/plaintext.ts";
 import metas from "lume/plugins/metas.ts";
+import date from "lume/plugins/date.ts";
 
 const site = lume({
     location: new URL("https://cezram.xyz"),
@@ -9,5 +10,11 @@ const site = lume({
 site.add("static", ".")
 site.use(plaintext())
 site.use(metas())
+site.use(date({
+    formats: {
+        "FULL_DATE": "PPPP",
+        "FULL_DATETIME": "PPPPpp"
+    }
+}))
 
 export default site;
