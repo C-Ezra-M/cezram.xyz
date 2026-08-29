@@ -5,3 +5,5 @@ metas:
   title: "=title || Untitled"
   color: "#FFBB22"
   icon: favicon.png
+  tags: "=tags"
+  layout: "=layout"
