@@ -44,6 +44,7 @@
     <main>
         <h1>{{ title }}</h1>
         {{ set restTags = tags.filter(e => !['post', 'art'].includes(e)) }}
+        {{ if isPost || isArt }}
             <section class="page-info">
                 <time datetime="{{ it.date |> date('ATOM') }}">{{ it.date |> date('FULL_DATETIME') }}</time><br>
                 Tags <em>(feature incomplete)</em>:
@@ -58,6 +59,7 @@
                 {{ /if }}
             </section>
             <hr>
+        {{ /if }}
         {{ content }}
     </main>
     <footer>

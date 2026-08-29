@@ -1,10 +1,32 @@
 ---
-title: Welcome to C.Ezra.M's website
+title: Welcome to cezram.xyz
 layout: layout.vto
 ---
 
 ## Latest Blog Entries
 
+{{ set postList = search.pages("post").toSorted((a, b) => b.date.getTime() - a.date.getTime()).slice(0, 6) }}
+<div class="blog-posts-wrapper">
+    <section class="blog-posts">
+        {{ for post of postList }}
+            <article>
+            <h3><a href="{{post.url}}">{{post.data.title}}</a></h3>
+            <section class="page-info">
+                <time datetime="{{ post.date |> date('ATOM') }}">{{ post.date |> date('FULL_DATE') }}</time>
+            </section>
+            <p>
+            {{ if post.data.description }}
+            {{ post.data.description }}
+            {{ else }}
+            {{ post.content }}
+            {{ /if }}
+            </p>
+            </article>
+        {{ /for }}
+    </section>
+</div>
+
+{{# 
 {% assign postList = collections.post | sort_exp: "a", "b", "return b.date.getTime() - a.date.getTime()" | slice: 0, 6 -%}
 <div class="blog-posts-wrapper">
     <section class="blog-posts">
@@ -50,7 +72,7 @@ layout: layout.vto
         </article>
         {%- endfor -%}
     </section>
-</div>
+</div> #}}
 
 <iframe id="bucket-webring" title="Webring navigation" style="width: 100%; height: 3rem; border: none;" src="https://webring.bucketfish.me/embed.html?name=C.Ezra.M"></iframe>
 
