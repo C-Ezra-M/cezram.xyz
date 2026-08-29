@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/favicon.png"/>
     <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet"/>
-    <meta name="generator" content="{{ eleventy.generator }}">
+    <meta name="generator" content="{{ generator }}">
     <meta property="og:title" content="{{ title |> escape }}">
     <meta property="og:description" content="{{ ogDesc |> escape }}">
     <meta property="og:url" content="{{ url }}">
@@ -45,38 +45,19 @@
         <h1>{{ title }}</h1>
         {{ set restTags = tags.filter(e => !['post', 'art'].includes(e)) }}
             <section class="page-info">
-                <time datetime="{{ date | date: '%Y-%m-%d' }}">{{ date | fmtdate }}</time><br>
+                <time datetime="{{ it.date |> date('ATOM') }}">{{ it.date |> date('FULL_DATETIME') }}</time><br>
                 Tags <em>(feature incomplete)</em>:
-                {%- if restTags.size >= 1 -%}
+                {{ if restTags.length >= 1 }}
                     <ul>
-                        {%- for tag in restTags %}
-                        <li><a href="/tags/{{tag | slugify}}">{{tag}}</a></li>
-                        {% endfor -%}
+                        {{ for tag of restTags }}
+                        <li><a href="/tags/{{tag |> slugify}}">{{tag}}</a></li>
+                        {{ /for }}
                     </ul>
-                {%- else -%}
+                {{ else }}
                 &#x20;None
-                {%- endif -%}
+                {{ /if }}
             </section>
             <hr>
-        {%- elsif isArt -%}
-            <section class="page-info">
-                <time datetime="{{ date | date: '%Y-%m-%d' }}">{{ date | fmtdate }}</time><br>
-                Tags <em>(feature incomplete)</em>:
-                {%- if restTags.size >= 1 -%}
-                    <ul>
-                        {%- for tag in restTags %}
-                        <li><a href="/tags/{{tag | slugify}}">{{tag}}</a></li>
-                        {% endfor -%}
-                    </ul>
-                {%- else -%}
-                &#x20;None
-                {%- endif -%}
-            </section>
-            <hr>
-            <p>
-                <img src="{{path}}" >
-            </p>
-        {%- endif -%}
         {{ content }}
     </main>
     <footer>
