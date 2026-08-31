@@ -11,4 +11,6 @@ Dad told me that replacing the keyboard would be sufficient, though I do know it
 
 ## Actual replacement
 
-As of August 21, I have asked my dad to replace the keyboard while I won't be at home over the weekend.
+As of August 21, I have asked my dad to replace the keyboard while I won't be at home over the weekend. By the time I came back, Dad was not done with the job.
+
+The laptop was in need of repasting, so I bought some thermal paste. Dad had me remove the rivets that hold the keyboard. Those are rubber, so a hobby knife did the job. Then Dad put in the new keyboard and attached it with hot glue. But when putting the laptop back together, Dad put a lot of screws in the wrong place. So a few days later I put them where they should be.

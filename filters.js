@@ -1,3 +1,5 @@
+import { load as yamlLoad } from "js-yaml"
+
 export function fmtDate(/** @type Date */ date) {
     return new Intl.DateTimeFormat("en-US", {
         timeZone: "Europe/Warsaw",
@@ -23,4 +25,8 @@ export function jsonParse(input) {
 
 export function toDateObject(input) {
     return new Date(input)
+}
+
+export function yamlParse(input) {
+    return yamlLoad(input)
 }

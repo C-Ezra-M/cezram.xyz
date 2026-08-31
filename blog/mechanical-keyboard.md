@@ -13,13 +13,15 @@ So I did something risky, and basically tried to pry the spacebar out of the key
 
 ## The keyboard itself
 
-The keyboard is a Ziyoulang K96. (The brand has since renamed to Free Wolf, and as I can see based on the QC sticker on the back, it passed QC in March 2024.) It has red switches for all keys, which are arranged into a 100-key layout. Certain keys are colored dark gray or orange, and the rest are white. The keyboard comes with a physical on/off switch. It is wireless, so it can connect to an included USB receiver over 2.4 GHz, or via Bluetooth.
+The keyboard is a Ziyoulang K96. (The brand has since renamed to Free Wolf, and as I can see based on the QC sticker on the back, it passed QC in March 2024.) It has red switches for all keys, which are arranged into a 100-key layout. Certain keycaps are colored dark gray or orange, and the rest are white. The keyboard comes with a physical on/off switch. It is wireless, so it can connect to an included USB receiver over 2.4 GHz, or via Bluetooth.
 
 The seller says that the keyboard had only been in use for 2 months before listing it. He was also kind enough to provide two AAA batteries that power it up.
 
 ## First impression
 
+> ℹ️ This section was not written with my mechanical keyboard. I filled this section in on August 31, so I tried to fill it in from memory.
 
+The keyboard felt surprisingly pleasant to use and listen to. But since 
 
 ## What's next
 

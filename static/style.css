@@ -193,7 +193,7 @@ code[class*="language-"], pre[class*="language-"] {
     margin-bottom: 0.85em;
     ul > li {
         display: inline;
-        &:not(:last-child)::before {
+        &:not(:first-child)::before {
             content: " · "
         }
     }
@@ -235,4 +235,20 @@ hr {
 
 .pixelated {
     image-rendering: pixelated;
+}
+
+.main-picture {
+    max-width: 450px;
+}
+
+.scroll-container {
+    height: 30rem;
+    max-height: 30rem;
+    overflow-y: auto;
+    border: 2px solid light-dark(var(--secondary), var(--primary));
+    padding: 0.5rem;
+}
+
+.microblog dt {
+    font-weight: bold;
 }
