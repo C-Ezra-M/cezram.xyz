@@ -30,6 +30,7 @@ tasks:
       - rm -rf pkgs
       - rm -f script.js
       - rm -f *.liquid
+      - rm -rf rarezen
   build-no-post:
     desc: Builds the site clean, with no post-build cleanup
     cmds:
