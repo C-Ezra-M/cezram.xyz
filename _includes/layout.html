@@ -51,7 +51,7 @@
         {%- if isPost -%}
             <section class="page-info">
                 <time datetime="{{ date | date: '%Y-%m-%d' }}">{{ date | fmtdate }}</time><br>
-                Tags <em>(feature incomplete)</em>:
+                Tags:
                 {%- if restTags.size >= 1 -%}
                     <ul>
                         {%- for tag in restTags %}
@@ -66,7 +66,7 @@
         {%- elsif isArt -%}
             <section class="page-info">
                 <time datetime="{{ date | date: '%Y-%m-%d' }}">{{ date | fmtdate }}</time><br>
-                Tags <em>(feature incomplete)</em>:
+                Tags:
                 {%- if restTags.size >= 1 -%}
                     <ul>
                         {%- for tag in restTags %}
