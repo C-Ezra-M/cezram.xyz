@@ -1,5 +1,5 @@
 ---
-title: Welcome to C.Ezra.M's website
+title: Welcome to cezram.xyz
 layout: layout.html
 ---
 
@@ -56,7 +56,7 @@ layout: layout.html
 
 ## Microblog Posts
 
-See all at [the dedicated page](/microblog)
+See all at [the dedicated page](/microblog).
 
 {%- capture microblog -%}
 {% render 'microblog.yaml' %}
@@ -65,9 +65,13 @@ See all at [the dedicated page](/microblog)
 <dl class="microblog scroll-container">
     {%- for entry in entries -%}
     <dt><time datetime="{{ entry.date }}">{{ entry.date | toDateObject | fmtFullDate }}</time></dt>
-    <dd>{{ entry.text }}</dd>
+<dd>
+
+{{ entry.text }}
+</dd>
     {%- endfor -%}
 </dl>
+{% # Dedent intentional. %}
 
 <iframe id="bucket-webring" title="Webring navigation" style="width: 100%; height: 3rem; border: none;" src="https://webring.bucketfish.me/embed.html?name=C.Ezra.M"></iframe>
 
