@@ -75,4 +75,8 @@ See all at [the dedicated page](/microblog).
 
 <iframe id="bucket-webring" title="Webring navigation" style="width: 100%; height: 3rem; border: none;" src="https://webring.bucketfish.me/embed.html?name=C.Ezra.M"></iframe>
 
-[![Stop Killing the Internet](/stop-killing-the-internet.png)](https://www.stopkillingtheinternet.com)
+<div class="pixelated">
+<a href="https://www.stopkillingtheinternet.com">
+    <img src="/stop-killing-the-internet.png" alt="Stop Killing the Internet">
+</a>
+</div>
