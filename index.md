@@ -63,13 +63,13 @@ See all at [the dedicated page](/microblog).
 {%- endcapture -%}
 {%- assign entries = microblog | yamlparse | sort_exp: "a", "b", "return new Date(b.date).getTime() - new Date(a.date).getTime()" -%}
 <dl class="microblog scroll-container">
-    {%- for entry in entries -%}
-    <dt><time datetime="{{ entry.date }}">{{ entry.date | toDateObject | fmtFullDate }}</time></dt>
+{%- for entry in entries -%}
+<dt><time datetime="{{ entry.date }}">{{ entry.date | toDateObject | fmtFullDate }}</time></dt>
 <dd>
 
 {{ entry.text }}
 </dd>
-    {%- endfor -%}
+{%- endfor -%}
 </dl>
 {% # Dedent intentional. %}
 
