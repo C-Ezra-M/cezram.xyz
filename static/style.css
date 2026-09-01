@@ -238,7 +238,7 @@ hr {
 }
 
 .main-picture {
-    max-width: 450px;
+    width: 450px;
 }
 
 .scroll-container {
