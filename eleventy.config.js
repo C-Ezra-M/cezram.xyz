@@ -1,5 +1,6 @@
 import { feedPlugin } from "@11ty/eleventy-plugin-rss"
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
+import ejsPlugin from "@11ty/eleventy-plugin-ejs";
 import { IdAttributePlugin } from "@11ty/eleventy";
 import markdownIt from "markdown-it";
 import { outdent } from "outdent";
@@ -67,4 +68,8 @@ export default function (eleventyConfig) {
 	eleventyConfig.addFilter("jsonparse", jsonParse)
 	eleventyConfig.addFilter("yamlparse", yamlParse)
 	eleventyConfig.addFilter("toDateObject", toDateObject)
+	eleventyConfig.addPlugin(ejsPlugin)
+	eleventyConfig.addGlobalData('filters', {
+		slugify: eleventyConfig.getFilter('slugify')
+	})
 }
