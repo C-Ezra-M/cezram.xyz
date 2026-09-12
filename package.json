@@ -14,10 +14,10 @@
   "description": "",
   "dependencies": {
     "@11ty/eleventy": "^3.1.2",
-    "@11ty/eleventy-plugin-ejs": "^1.0.0",
     "@11ty/eleventy-plugin-rss": "^2.0.4",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
     "blissfuljs": "^1.0.6",
+    "eleventy-plugin-vento": "^6.0.0",
     "localforage": "^1.10.0",
     "outdent": "^0.8.0",
     "pokedex-promise-v2": "^4.2.3",
