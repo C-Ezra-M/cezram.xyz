@@ -9,6 +9,8 @@ eleventyComputed:
   title: 'Tagged "{{ tag }}"'
 ---
 
+[Tag index](/tag)
+
 <ul>
 {% assign taglist = collections[ tag ] | sort_exp: "a", "b", "return new Date(b.date).getTime() - new Date(a.date).getTime()" %}
 {% for post in taglist | reverse %}
