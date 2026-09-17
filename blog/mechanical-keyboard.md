@@ -19,9 +19,9 @@ The seller says that the keyboard had only been in use for 2 months before listi
 
 ## First impression
 
-> ℹ️ This section was not written with my mechanical keyboard. I filled this section in on August 31, so I tried to fill it in from memory.
+> ℹ️ This section was not written with my mechanical keyboard. I filled this section in on August 31, then on September 15, so I tried to fill it in from memory.
 
-The keyboard felt surprisingly pleasant to use and listen to. But since 
+The keyboard felt surprisingly pleasant to use and listen to. But since my standing desk doesn't work (at the time of this post), it sometimes felt uncomfortable. Maybe it has to do with the fact I do not have a desk riser, and my laptop is almost half the depth of my desk.
 
 ## What's next
 
