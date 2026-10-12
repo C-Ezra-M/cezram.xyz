@@ -52,7 +52,7 @@ tasks:
       - task: publish
   copy-fonts:
     desc: Copies fonts from the RareZen repository
-    sources: ['rarezen/dist/RareZen/TTF/*.ttf', 'rarezen/dist/RareZenMono/TTF/*.ttf']
+    vars: 
+      SRC: 'rarezen/dist/*/TTF/*-{Regular,Bold{Italic,},Italic}.ttf'
     cmds:
-      - for: sources
-        cmd: cp {{.ITEM}} static/$(echo "{{.ITEM}}" | grep -Po "(?<=/)[^/]+$")
+      - cp {{.SRC}} static/$(echo {{.SRC}} | tr ' ' '\n' | grep -Po "(?<=/)[^/]+$" | xargs -I % cp static/%
