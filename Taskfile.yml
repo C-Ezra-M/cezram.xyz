@@ -53,6 +53,10 @@ tasks:
   copy-fonts:
     desc: Copies fonts from the RareZen repository
     vars: 
-      SRC: 'rarezen/dist/*/TTF/*-{Regular,Bold{Italic,},Italic}.ttf'
+      sources:
+        - 'rarezen/dist/*/TTF/*-{Regular,Bold{Italic,},Italic}.ttf'
+        - 'rarezen/dist/*/TTF/*-Condensed{Bold{Italic,},Italic}.ttf'
     cmds:
-      - cp {{.SRC}} static/$(echo {{.SRC}} | tr ' ' '\n' | grep -Po "(?<=/)[^/]+$" | xargs -I % cp static/%
+      - git submodule init
+      - git submodule update
+      - echo {{.sources | join " "}} | tr ' ' '\n' | awk '{ printf("cp %s static/%s\n", $0, substr($0, match($0, "[^/]+$"))) }' | sh
