@@ -10,7 +10,7 @@
     --primary-muted: #FFDD99;
     --secondary-muted: #4444BB;
     --tertiary-muted: #995577;
-    --font-content: 'RareZen', Arial, Helvetica, sans-serif;
+    --font-content: 'REM', Arial, Helvetica, sans-serif;
     --font-monospace: 'RareZen Mono', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace, serif;
 }
 
@@ -18,8 +18,7 @@ html {
     color-scheme: dark;
     padding: 0.5rem;
     font-family: var(--font-content);
-    font-stretch: condensed;
-    font-width: condensed;
+    font-size: 16px;
     background-image:
         linear-gradient(to bottom, transparent 50%, var(--secondary) 95%),
         url(/tiling-dark.png);
