@@ -10,4 +10,4 @@ layout: layout.html
 ## How to fix this
 
 - Enable JavaScript support in your browser.
-- If you use NoScript (like I do), switch the setting for `neocities.org` to `TRUSTED`.
+- If you use NoScript (like I do), switch the setting for `cezram.xyz` to `TRUSTED`.

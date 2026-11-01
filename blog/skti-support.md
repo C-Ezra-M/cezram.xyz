@@ -3,6 +3,8 @@ title: Declaration of Support for Stop Killing the Internet
 date: 2026-08-30 19:00:00+02:00
 tags:
     - Digital rights
+og:
+    image: /blog/skti-support/skti-initiative-signed.png
 ---
 
 As of August 30, I have signed the European Citizens' Initiative ["Stop Killing The Internet: No Digital ID & No Age Verification"](https://eci.ec.europa.eu/066/public/).

@@ -5,3 +5,5 @@ title: BFDIA 5b Box Art
 ---
 
 The box art for *BFDIA 5b*'s remake, inspired by that of *Super Mario Bros.*
+
+I had used existing assets, because the October trailer for the remake didn't exist yet.
