@@ -56,7 +56,8 @@ tasks:
       sources:
         #- 'rarezen/dist/*/TTF/*-{Regular,Bold{Italic,},Italic}.ttf'
         #- 'rarezen/dist/*/TTF/*-Condensed{Bold{Italic,},Italic,}.ttf'
-        - 'rarezen/dist/RareZenMono/TTF/*-Condensed{Bold{Italic,},Italic,}.ttf'
+        #- 'rarezen/dist/RareZenMono/TTF/*-Condensed{Bold{Italic,},Italic,}.ttf'
+        - 'rarezen/dist/RareZenMono/TTF/*-{Regular,Bold{Italic,},Italic}.ttf'
         - 'REM/fonts/ttf/REM-{Regular,Bold{Italic,},Italic}.ttf'
     cmds:
       - git submodule init

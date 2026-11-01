@@ -3,7 +3,7 @@
 	font-display: swap;
 	font-weight: 400;
 	font-style: normal;
-	src: url('/RareZenMono-Condensed.ttf');
+	src: url('/RareZenMono-Regular.ttf');
 }
 
 @font-face {
@@ -11,7 +11,7 @@
 	font-display: swap;
 	font-weight: 400;
 	font-style: italic;
-	src: url('/RareZenMono-CondensedItalic.ttf');
+	src: url('/RareZenMono-Italic.ttf');
 }
 
 @font-face {
@@ -19,7 +19,7 @@
 	font-display: swap;
 	font-weight: 700;
 	font-style: normal;
-	src: url('/RareZenMono-CondensedBold.ttf');
+	src: url('/RareZenMono-Bold.ttf');
 }
 
 @font-face {
@@ -27,7 +27,7 @@
 	font-display: swap;
 	font-weight: 700;
 	font-style: italic;
-	src: url('/RareZenMono-CondensedBoldItalic.ttf');
+	src: url('/RareZenMono-BoldItalic.ttf');
 }
 
 
