@@ -7,7 +7,7 @@ It is I, **C.Ezra.M**! You may also call me just **Ezra**. My pronouns are he/hi
 
 {%-float-%}
 <img src="/ezra-with-castle-and-lamp.png" alt="Ezra in front of a castle and a lamppost" class="pixelated">
-{%-endfloat-%}
+{%-endfloat%}
 
 What do I like? Coding, conlangs, and Pokémon!
 
