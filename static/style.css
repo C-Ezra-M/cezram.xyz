@@ -156,6 +156,11 @@ pre {
     }
 }
 
+code[class], pre[class] {
+    text-shadow: none;
+    font-family: var(--font-monospace);
+}
+
 .float {
     float: right;
     padding: 0.5em 0 0.5em 0.5em;
@@ -179,12 +184,6 @@ table {
 
 p > img {
     max-width: 100%;
-}
-
-/* Override Prism styling */
-
-code[class*="language-"], pre[class*="language-"] {
-    font-family: var(--font-monospace);
 }
 
 .page-info {
