@@ -2,6 +2,7 @@
 title: Update No. 2
 tags:
     - About cezram.xyz
+date: 2026-08-17 12:16:58+00:00
 ---
 
 - In the last update, I added support for OpenGraph tags. This update fixes titles with quotation marks.
