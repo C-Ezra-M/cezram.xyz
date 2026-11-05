@@ -31,6 +31,7 @@ tasks:
       - rm -f script.js
       - rm -f *.liquid
       - rm -rf rarezen
+      - rm -rf REM
   build-no-post:
     desc: Builds the site clean, with no post-build cleanup
     cmds:
