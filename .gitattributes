@@ -1,1 +1,2 @@
 *.md linguist-detectable
+microblog.yaml linguist-language=md
