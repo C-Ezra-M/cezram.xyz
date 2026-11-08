@@ -20,7 +20,11 @@
     <meta property="og:url" content="{{ url }}">
     <meta property="og:sitename" content="cezram.xyz">
     <meta property="og:locale" content="{{ lang | default: "en" }}">
+    {%- if isArt -%}
+    <meta property="og:image" content="{{ path | default: og.image | default: "/favicon.png" }}">
+    {%- else -%}
     <meta property="og:image" content="{{ og.image | default: "/favicon.png" }}">
+    {%- endif -%}
     <link rel="stylesheet" href="/style.css" media="screen">
     <link rel="stylesheet" href="/font.css">
     <title>{{ title }} | C.Ezra.M</title>
