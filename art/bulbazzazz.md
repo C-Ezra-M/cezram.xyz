@@ -4,6 +4,7 @@ title: BulbaZZAZZ
 date: 2025-02-07
 tags:
     - Pokémon
+classes: translucent
 ---
 
 *The ZZAZZ glitch in the Generation I games happens when encountering certain glitch Trainers. It turns your party Pokémon into level 153 Bulbasaur that know Explosion multiple times, and changes your name to have lots of Zs. Bulbasaur looks about to go KABOOM!!!*

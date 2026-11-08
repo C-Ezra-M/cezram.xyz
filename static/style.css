@@ -255,3 +255,11 @@ hr {
 p:empty {
     display: none;
 }
+
+.translucent{
+    background-color: light-dark(#eee, #111);
+    background-size: 16px 16px;
+    &:hover {
+        background-image: conic-gradient(from 0 at 50% 50%, transparent 0% 25%, #8888 25% 50%, transparent 50% 75%, #8888 75% 100%);
+    }
+}
