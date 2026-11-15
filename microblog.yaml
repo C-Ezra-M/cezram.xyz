@@ -1,11 +1,11 @@
 - 
-    date: 2026-07-08 22:01:00
+    date: 2026-07-08 22:01:00+02:00
     text: |
         If you have leftover cooked dry pasta (as was left today because there was too little tomato soup left to use it all up), you can throw the pasta into oil in a pan. Add either small tomatoes cut in halves or diced thick tomato slices, add spices (dried basil was enough for me), and fry everything together for a short while!
         
         I don't have a photo, but I can assure you it is tasty, and vegan. A good struggle meal indeed.
 - 
-    date: 2026-08-31 15:30:00
+    date: 2026-08-31 15:30:00+02:00
     text: |
         Today, Mom sent me a photo modified by ChatGPT, with a Pikachu on my shoulder. The original photo came from a museum of optical illusions in Kraków, specifically from a room designed to look like a white-and-black cartoon or comic.
 
@@ -15,8 +15,11 @@
         
         Mom apparently became a little obsessed after generating visualizations of my room after renovations.
 -
-    date: 2026-08-31 20:34:00
+    date: 2026-08-31 20:34:00+02:00
     text: BFDI:TPOT 25 was amazing. So many things I didn't expect! I can't reveal more without spoiling what happened.
 -
-    date: 2026-08-31 20:52:00
+    date: 2026-08-31 20:52:00+02:00
     text: oh btw I'm watching the new season of *The Floor* and someone has a Pokémon category!
+-
+    date: 2026-11-14 17:19:00+01:00
+    text: "I did not want my computer to coast on just 6GB of swap memory, so I made it 32GB. (It has 12GB of RAM.) Thankfully, Bazzite (the distro I use) has a tutorial for that: https://docs.bazzite.gg/Advanced/swapfile/"
