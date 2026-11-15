@@ -7,6 +7,7 @@ tasks:
       - mkdir -p static/pkgs
       - cp node_modules/localforage/dist/localforage.min.js static/pkgs/localforage.js
       - cp node_modules/blissfuljs/bliss.min.js static/pkgs/bliss.js
+      - cp node_modules/prismjs/themes/prism-okaidia.min.css static/pkgs/prism-okaidia.css
   serve:
     desc: Serves the site on localhost
     cmds:
