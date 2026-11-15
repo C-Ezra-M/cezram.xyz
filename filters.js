@@ -12,6 +12,7 @@ export function fmtFullDate(/** @type Date */ date) {
         timeZone: "Europe/Warsaw",
         dateStyle: "full",
         timeStyle: "short",
+        hour12: false,
     }).format(date)
 }
 
