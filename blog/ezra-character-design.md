@@ -34,6 +34,10 @@ The pose is based on the one of the Youngster Trainer type, specifically from a 
 
 My character in *Pokémon Sword* wore the same shorts as Ezra does, which come from the uniform worn by Gym Trainers in Hammerlocke Stadium, themselves inspired by Lance's outfit from *Pokémon HeartGold and SoulSilver*. You can get the uniform itself after defeating Raihan.
 
-## 2026: Solidifying the Design
+## 2026: Solidifying the Design Principles
 
-I started the drawing for my new profile picture on October 17, 2026. Then, I completed it the next day.
+I started the drawing for my new profile picture on October 17, 2026. Then, I completed it the next day. Right now, this design only features the head.
+
+![](/blog/ezra-character-design/cezram-pfp-2026.png)
+
+With this design, I changed the way head hair is drawn, to make their style consistent with the rest of the body.
