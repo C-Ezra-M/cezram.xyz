@@ -28,9 +28,15 @@ The design under the waist has gone through more changes than that. Ezra now wea
 
 The pose is based on the one of the Youngster Trainer type, specifically from a sprite in the 1997 Spaceworld demo. It was not available to see during normal gameplay, but was found in the leaked ROM.
 
-![Youngster sprite, original size](/blog/ezra-character-design/youngster-sprite-sw97-1x.png)
+<figure>
+<img src="/blog/ezra-character-design/youngster-sprite-sw97-1x.png" class="pixelated" alt="Youngster sprite, original size">
+<figcaption>Youngster sprite from the 1997 Spaceworld demo, original size</figcaption>
+</figure>
 
-![Youngster sprite, scaled up by 10x](/blog/ezra-character-design/youngster-sprite-sw97-10x.png)
+<figure>
+<img src="/blog/ezra-character-design/youngster-sprite-sw97-10x.png" class="pixelated" alt="Youngster sprite, scaled up">
+<figcaption>Youngster sprite from the 1997 Spaceworld demo, scaled up</figcaption>
+</figure>
 
 My character in *Pokémon Sword* wore the same shorts as Ezra does, which come from the uniform worn by Gym Trainers in Hammerlocke Stadium, themselves inspired by Lance's outfit from *Pokémon HeartGold and SoulSilver*. You can get the uniform itself after defeating Raihan.
 

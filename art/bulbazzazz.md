@@ -14,3 +14,5 @@ An artistic depiction of the effect of the [ZZAZZ glitch](https://bulbapedia.bul
 This artwork was made for a collab hosted by Poké Earth Collabs ([YouTube](https://www.youtube.com/@PokeEarthCollabs), [Bluesky](https://bsky.app/profile/pokeearthcollab.bsky.social)) for [Bulbapedia](https://bulbapedia.bulbagarden.net)'s 20th anniversary since its opening to the public on February 14th, 2005.
 
 The artwork was posted [on Bluesky](https://bsky.app/profile/cezram.xyz/post/3li56g7qxds2v) on the day of the anniversary.
+
+"Bulbasaur['s bulb] looks about to go KABOOM!!!" Its name tag shows the name "ZZAZZW", and the name under the generated noise and the Zs is "FEAROW". The ribbon represents level 153, normally impossible for a Pokémon outside of Hyperspace Lumiose, since the level cap is 100.
