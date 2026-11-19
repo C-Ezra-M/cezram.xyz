@@ -263,3 +263,17 @@ p:empty {
         background-image: conic-gradient(from 0 at 50% 50%, transparent 0% 25%, #8888 25% 50%, transparent 50% 75%, #8888 75% 100%);
     }
 }
+
+.splash {
+    position: absolute;
+    right: 20px;
+    bottom: -10px;
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+    font-size: 1.5em;
+    transform: rotate(5deg);
+    -webkit-text-stroke: 3px black;
+    paint-order: stroke fill;
+    pointer-events: none;
+}
