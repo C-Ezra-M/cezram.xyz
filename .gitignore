@@ -6,3 +6,6 @@ static/*.ttf
 _drafts
 .task
 .netrc
+
+package-info.md
+# generated with `task package-info`

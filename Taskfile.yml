@@ -65,3 +65,7 @@ tasks:
       - git submodule init
       - git submodule update
       - echo {{.sources | join " "}} | tr ' ' '\n' | awk '{ printf("cp %s static/%s\n", $0, substr($0, match($0, "[^/]+$"))) }' | sh
+  package-info:
+    desc: Creates a package info file
+    cmds:
+      - node package-info.js > package-info.md
