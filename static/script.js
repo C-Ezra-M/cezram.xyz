@@ -1,7 +1,12 @@
-function parseSplash(text) {
-    return text
-        .replace(/\\(?!\\)/g, "\n")
-        .replace(/\\\\/g, "\\")
+function getSplashList(fileContent) {
+    return fileContent
+        .replace(/^#.+\n/gm, "") // delete all lines beginning with a #
+        .split("\n")
+        .filter(e => e.length > 0)
+        .map(e => e
+            .replace(/\\n/g, "\n") // convert all "\n" to newlines
+            .replace(/\\\\/g, "\\") // double backslash becomes single backslash
+        )
 }
 
 $.ready().then(async () => {
@@ -11,7 +16,7 @@ $.ready().then(async () => {
     })
     fetch("/splashes.txt")
         .then(async (resp) => {
-            $("#splash").innerText = parseSplash((await resp.text()).split("\n")[0])
+            $("#splash").innerText = getSplashList(await resp.text())[Math.floor(new Date().getUTCHours() / 8)]
         })
         .catch(reason => console.log(reason));
 })

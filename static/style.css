@@ -273,6 +273,8 @@ p:empty {
     font-weight: bold;
     font-size: 1.2em;
     transform: rotate(-5deg);
-    -webkit-text-stroke: 3px black;
-    paint-order: stroke fill;
+    image-rendering: initial;
+    text-shadow: -2px -2px 0 black, 2px 2px 0 black;
+    /* -webkit-text-stroke: 3px black; 
+    paint-order: stroke fill; */
 }
