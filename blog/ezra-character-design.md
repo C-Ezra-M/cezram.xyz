@@ -8,19 +8,25 @@ It's nearly one year since I drew Ezra's current character design. It has gone t
 
 According to the dates recorded in the filesystem, this design is dated May 2024, but I remember doing much of the drawing on my phone while on an international flight, which couldn't happen in May. Maybe around summer 2023? I don't know for sure!
 
-![](/blog/ezra-character-design/c-ezra-m-design-2024.png)
+{% fig "Ezra's design, dated May 2024" %}
+<img src="/blog/ezra-character-design/c-ezra-m-design-2024.png" alt="Ezra with turquoise head hair, green-and-orange hoodie, washed-out blue pants, white sneakers with black and red patterns.">
+{% endfig %}
 
 Ezra appears to be portrayed as a tall young adult. He has brown eyes, a light complexion, and brown hair, except for head hair, which is dyed turquoise. He wears a hat with a Quick Ball design, a green-and-orange hoodie with a green hood, an orange kangaroo pouch, brown cuffs, light gray drawstrings with silvery ends, and the hexagonal logo in front, washed-out blue pants, white socks with a light blue wavy line around them, and white sneakers with black and red patterns and red laces.
 
 The hoodie's bicolored design is itself inspired by [Sendr](https://sendrbrand.com/) hoodies, which I heard of on TikTok, which I no longer use. Note, I do not own *any* Sendr hoodies. Never have.
 
-![Andrew Balzer, owner of the Sendr brand, in a dark blue-and-red hoodie](/blog/ezra-character-design/sendr-with-hoodie-1.jpg)
+{% fig "Andrew Balzer, owner of the Sendr brand, in a dark blue-and-red hoodie" %}
+<img src="/blog/ezra-character-design/sendr-with-hoodie-1.jpg" alt="Andrew Balzer in a dark blue-and-red hoodie, standing in his studio">
+{% endfig %}
 
 ## Late 2024: The Kiddy Redesign
 
 I started this in early December 2024, and then completed it just before Christmas.
 
-![](/blog/ezra-character-design/c-ezra-m-pfp-youngster-with-bg.png)
+{% fig "Ezra's design, dated December 2024" %}
+<img src="/blog/ezra-character-design/c-ezra-m-pfp-youngster-with-bg.png" alt="Ezra with turquoise head hair, green-and-orange hoodie, dark blue shorts with red patterns, black-and-red shoes with white soles">
+{% endfig %}
 
 The design above the waist is largely unchanged. However, Ezra overall has a shorter stature now. The hoodie has simpler cuffs and a tag resembling the Polish flag, with a triangle wave symbol, derived from the first letters of my first and last name.
 
@@ -28,15 +34,13 @@ The design under the waist has gone through more changes than that. Ezra now wea
 
 The pose is based on the one of the Youngster Trainer type, specifically from a sprite in the 1997 Spaceworld demo. It was not available to see during normal gameplay, but was found in the leaked ROM.
 
-<figure>
-<img src="/blog/ezra-character-design/youngster-sprite-sw97-1x.png" class="pixelated" alt="Youngster sprite, original size">
-<figcaption>Youngster sprite from the 1997 Spaceworld demo, original size</figcaption>
-</figure>
+{% fig "Youngster sprite from the 1997 Spaceworld demo, original size" %}
+<img src="/blog/ezra-character-design/youngster-sprite-sw97-1x.png" class="pixelated" alt="Youngster sprite from the 1997 Spaceworld demo, original size">
+{% endfig %}
 
-<figure>
-<img src="/blog/ezra-character-design/youngster-sprite-sw97-10x.png" class="pixelated" alt="Youngster sprite, scaled up">
-<figcaption>Youngster sprite from the 1997 Spaceworld demo, scaled up</figcaption>
-</figure>
+{% fig "Youngster sprite from the 1997 Spaceworld demo, scaled up" %}
+<img src="/blog/ezra-character-design/youngster-sprite-sw97-10x.png" class="pixelated" alt="Youngster sprite from the 1997 Spaceworld demo, scaled up">
+{% endfig %}
 
 My character in *Pokémon Sword* wore the same shorts as Ezra does, which come from the uniform worn by Gym Trainers in Hammerlocke Stadium, themselves inspired by Lance's outfit from *Pokémon HeartGold and SoulSilver*. You can get the uniform itself after defeating Raihan.
 
@@ -44,6 +48,8 @@ My character in *Pokémon Sword* wore the same shorts as Ezra does, which come f
 
 I started the drawing for my new profile picture on October 17, 2026. Then, I completed it the next day. Right now, this design only features the head.
 
-![](/blog/ezra-character-design/cezram-pfp-2026.png)
+{% fig "Ezra's profile picture from October 17, 2026" %}
+<img src="/blog/ezra-character-design/cezram-pfp-2026.png" alt="Ezra's profile picture from October 17, 2026">
+{% endfig %}
 
 With this design, I changed the way head hair is drawn, to make their style consistent with the rest of the body.

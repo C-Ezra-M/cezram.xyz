@@ -5,7 +5,7 @@ import { IdAttributePlugin } from "@11ty/eleventy";
 import markdownIt from "markdown-it";
 import { outdent } from "outdent";
 import { minify } from "terser";
-import { pokemonIcon, youtube } from "./shortcodes.js";
+import { figure, pokemonIcon, youtube } from "./shortcodes.js";
 import { fmtDate, fmtFullDate, jsonParse, sortExp, toDateObject, yamlParse } from "./filters.js";
 
 export default function (eleventyConfig) {
@@ -72,4 +72,5 @@ export default function (eleventyConfig) {
 	eleventyConfig.addGlobalData('filters', {
 		slugify: eleventyConfig.getFilter('slugify')
 	})
+	eleventyConfig.addPairedShortcode("fig", figure)
 }
