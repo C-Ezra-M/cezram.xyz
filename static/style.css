@@ -69,13 +69,11 @@ body {
 }
 
 .mode-switcher-btn {
-    background-color: light-dark(yellow, white);
-    height: 80px;
-    width: 50px;
-    display: inline-block;
-    right: 0;
-    position: absolute;
+    background-color: light-dark(var(--secondary), var(--primary));
+    color: light-dark(white, black);
+    padding: 0 0.5em;
     cursor: pointer;
+    user-select: none;
 }
 
 header {
@@ -91,7 +89,7 @@ header {
     border: 2px solid light-dark(var(--secondary), var(--primary));
     margin-bottom: 0.5rem;
     image-rendering: pixelated;
-    &:has(#mode-switcher:checked) {
+    :has(#mode-switcher:checked) & {
         background-image: 
             url(/header-icon-light.png),
             url(/header-bg-light.png)
