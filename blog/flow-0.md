@@ -18,7 +18,7 @@ date: 2026-06-21
 
 This camp runs on points, just like BFRK, BFRP, or BFRP NEO. At the end of each challenge, I will average the scores of each team. The contestant with the lowest score on the lowest-scoring team is eliminated.
 
-I will be giving out Fluxer Plutonium for winning. This is my first camp with real prizes. They will be given out after the finale.
+I will be giving out [Fluxer Plutonium](https://fluxer.com/plutonium) for winning. This is my first camp with real prizes. They will be given out after the finale.
 
 The winner is guaranteed to get 1 year of Plutonium. The ones placing 2nd and 3rd get 1 month of Plutonium. How much more Plutonium I give out depends on how many contestants decide to sign up.
 
@@ -48,12 +48,16 @@ To sign up, join Ezra’s Room on Fluxer. Go to the `#📝・FLOW Signups` chann
 
 The first period of signups will last until a minimum of 30 contestants has been reached or MUD ends, whichever comes later. The second period lasts until 60 contestants have signed up, but no longer than 2 weeks.
 
-## Extra: Fluxer mobile app
+## Extra info: Fluxer mobile app
 
-Fluxer's mobile app is currently in beta. Here's how to get it:
+> 🆕 **Update (November 20, 2026)**
+>
+> New information regarding the acquisition of the Fluxer app for both Android and iOS.
 
-- **On Android**: Go to https://github.com/fluxerapp/flutter_client/releases and download the APK. APKs with `betafcm` are suitable for most users. I use one with `betaoss` and set up notifications with Sunup, though you can use any UnifiedPush provider: https://unifiedpush.org/users/distributors.
-- **On iOS**: The app is only available via TestFlight, and there are limited slots.
+Fluxer's mobile app is in beta as of November 20, 2026. Here's how to get it:
+
+- **On Android**: A stable release is now [on Google Play](https://play.google.com/store/apps/details?id=com.fluxer). Also coming to F-Droid and Accrescent, with no ETA. See [the help page](https://fluxer.com/help/f-droid) for more information.
+- **On iOS**: [The app is **unavailable**](https://fluxer.com/help/ios-testflight) due to issues with TestFlight on Apple's side. The Fluxer team has submitted the app to the App Store. If you have the Fluxer beta from before said issue, you can still use it.
 
 ## Extra: Advertising template
 
