@@ -28,6 +28,8 @@ tasks:
     desc: Operations after building
     dir: _site
     cmds:
+      - cmd: echo "[INFO] The command 'post-build' is executed in the _site directory." >&2
+        silent: true
       - rm -rf pkgs
       - rm -f script.js
       - rm -f *.liquid
